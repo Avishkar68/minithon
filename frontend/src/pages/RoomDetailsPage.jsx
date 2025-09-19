@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import roomdetailsdata from "../data/roomdetailsdata";
-
+import axios from "axios"
 const StarRating = ({ rating }) => {
   const stars = [];
   for (let i = 1; i <= 5; i++) {
@@ -122,7 +122,23 @@ const RoomDetailsPage = () => {
   }
   const mapQuery = encodeURIComponent(room.location);
   const mapSrc = `https://maps.google.com/maps?q=${mapQuery}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
-
+   const [isModalOpen, setIsModalOpen] = useState(false);
+   const [formData, setFormData] = useState({ name: "", email: "", months: 1 });
+   const [message, setMessage] = useState("");
+  const handleReserve = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await axios.post(
+        `http://localhost:4000/api/reservations/${id}`,
+        formData
+      );
+      setMessage("✅ Reservation successful!");
+      setFormData({ name: "", email: "", months: 1 });
+      setIsModalOpen(false);
+    } catch (err) {
+      setMessage("Failed to reserve. Try again.");
+    }
+  };
   return (
     <div className="bg-white">
       <div className="p-10 mt-20 md:p-6 max-w-7xl mx-auto pt-24">
@@ -297,9 +313,12 @@ const RoomDetailsPage = () => {
                   <span>₹{(room.price + 500).toLocaleString("en-IN")}</span>
                 </div>
               </div>
-              <button className="w-full bg-gray-900 text-white font-bold py-3 rounded-xl hover:bg-gray-700 transition transform hover:scale-105">
-                Reserve Now
-              </button>
+              <button
+              onClick={() => setIsModalOpen(true)}
+              className="w-full bg-gray-900 cursor-pointer text-white font-bold py-3 rounded-xl hover:bg-gray-700 transition transform hover:scale-105"
+            >
+              Reserve Now
+            </button>
               <p className="text-center text-xs text-gray-500 mt-3">
                 You won't be charged yet
               </p>
@@ -322,6 +341,68 @@ const RoomDetailsPage = () => {
             </div>
           </div>
         </div>
+        {isModalOpen && (
+          <div className="fixed inset-0 backdrop-blur-xl bg-opacity-60 flex items-center justify-center z-50">
+            <div className="bg-white p-6 rounded-xl shadow-xl w-96">
+              <h2 className="text-xl font-bold mb-4">Reserve Room</h2>
+              <form onSubmit={handleReserve} className="space-y-4">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  value={formData.name}
+                  onChange={(e) =>
+                    setFormData({ ...formData, name: e.target.value })
+                  }
+                  className="w-full border px-3 py-2 rounded-lg"
+                  required
+                />
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  value={formData.email}
+                  onChange={(e) =>
+                    setFormData({ ...formData, email: e.target.value })
+                  }
+                  className="w-full border px-3 py-2 rounded-lg"
+                  required
+                />
+                <input
+                  type="number"
+                  placeholder="Months"
+                  value={formData.months}
+                  min="1"
+                  onChange={(e) =>
+                    setFormData({ ...formData, months: e.target.value })
+                  }
+                  className="w-full border px-3 py-2 rounded-lg"
+                  required
+                />
+                <div className="flex justify-end gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setIsModalOpen(false)}
+                    className="px-4 cursor-pointer py-2 rounded-lg bg-gray-200 hover:bg-gray-300"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    type="submit"
+                    className="px-4 py-2 rounded-lg cursor-pointer bg-amber-600 text-white hover:bg-amber-700"
+                  >
+                    Reserve Now
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        )}
+
+        {/* Success/Error Message */}
+        {message && (
+          <p className="mt-6 text-center font-semibold text-green-600">
+            {message}
+          </p>
+        )}
       </div>
     </div>
   );
