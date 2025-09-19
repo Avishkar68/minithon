@@ -13,10 +13,7 @@ const roomdetailsdata =
         "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/7ce7e13f-fab8-49c5-a134-b358a323b99b.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/05f6f4d3-d3b2-43d0-8c11-1ae924436c49.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/bb0c2b29-14e5-4d42-9680-1a066aeeb1cc.jpeg?im_w=720",
-
-        
       ],
-
       "testimonials": [
         { "author": "Ravi Kumar", "rating": 5, "comment": "Very comfortable and clean. Perfect for students." },
         { "author": "Priya Sharma", "rating": 4, "comment": "Quiet environment, great for studying." },
@@ -30,7 +27,8 @@ const roomdetailsdata =
         { "question": "Is laundry service available?", "answer": "Yes, laundry service is available at extra cost." },
         { "question": "Is security provided?", "answer": "Yes, 24/7 security and CCTV monitoring are available." },
         { "question": "Can I customize the room decor?", "answer": "Yes, minimal decoration is allowed as long as no damage is caused." }
-      ]
+      ],
+      "rating": 9
     },
     {
       "id": 2,
@@ -45,7 +43,6 @@ const roomdetailsdata =
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/6dc7c878-b6f0-45a3-9a68-e61f69a2902d.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/409f9ea3-c424-480d-8674-9595e9e88bab.jpeg?im_w=1200",
       ],
-
       "testimonials": [
         { "author": "Ankit Verma", "rating": 4, "comment": "Affordable and decent facilities." },
         { "author": "Neha Gupta", "rating": 3, "comment": "Good for budget stay but bathrooms can be improved." },
@@ -59,7 +56,8 @@ const roomdetailsdata =
         { "question": "Is the room cleaned daily?", "answer": "Cleaning is done every alternate day." },
         { "question": "Can we have overnight guests?", "answer": "No, overnight guests are not permitted." },
         { "question": "Is there parking available?", "answer": "Yes, limited parking is available for two-wheelers." }
-      ]
+      ],
+      "rating": 7
     },
     {
       "id": 3,
@@ -87,8 +85,8 @@ const roomdetailsdata =
         { "question": "Do we get hot water?", "answer": "Hot water is available in the mornings." },
         { "question": "Can we cook inside?", "answer": "Cooking inside the room is not allowed." },
         { "question": "Are pets allowed?", "answer": "No, pets are not allowed inside dormitories." }
-      ]
-
+      ],
+      "rating": 6
     },
     {
       "id": 4,
@@ -116,7 +114,8 @@ const roomdetailsdata =
         { "question": "Is bedding provided?", "answer": "No, residents need to bring their own bedding." },
         { "question": "Is there a curfew?", "answer": "Yes, the main gate closes at 11 PM." },
         { "question": "What's the best way to get to campus?", "answer": "It's a 5-minute walk from this location." }
-      ]
+      ],
+      "rating": 8
     },
     {
       "id": 5,
@@ -144,7 +143,8 @@ const roomdetailsdata =
         { "question": "Is there a mess hall?", "answer": "Yes, there is a common mess hall for all residents." },
         { "question": "Are the study areas quiet?", "answer": "Yes, dedicated quiet study areas are available." },
         { "question": "Is there a gym?", "answer": "No, a gym is not available on the premises." }
-      ]
+      ],
+      "rating": 7
     },
     {
       "id": 6,
@@ -159,8 +159,6 @@ const roomdetailsdata =
         "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/7ce7e13f-fab8-49c5-a134-b358a323b99b.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/05f6f4d3-d3b2-43d0-8c11-1ae924436c49.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/bb0c2b29-14e5-4d42-9680-1a066aeeb1cc.jpeg?im_w=720",
-
-        
       ],
       "testimonials": [
         { "author": "Kavita Reddy", "rating": 4, "comment": "Spacious for three people, lots of storage." },
@@ -175,7 +173,8 @@ const roomdetailsdata =
         { "question": "Is there an emergency contact?", "answer": "Yes, a warden is available 24/7 for emergencies." },
         { "question": "Can we bring our own appliances?", "answer": "Small, low-wattage appliances like kettles are allowed with permission." },
         { "question": "Is there a common TV room?", "answer": "Yes, there is a common room with a TV and recreational games." }
-      ]
+      ],
+      "rating": 6
     },
     {
       "id": 7,
@@ -203,7 +202,8 @@ const roomdetailsdata =
         { "question": "Can I have guests?", "answer": "Visitors are allowed in common areas only, not in rooms." },
         { "question": "Is there a curfew?", "answer": "No, there is no curfew for this premium block." },
         { "question": "Are there any special rules?", "answer": "Noise levels should be kept to a minimum after 10 PM." }
-      ]
+      ],
+      "rating": 9
     },
     {
       "id": 8,
@@ -231,7 +231,8 @@ const roomdetailsdata =
         { "question": "Are there laundry facilities?", "answer": "Yes, a laundry room with coin-operated machines is available." },
         { "question": "What is the internet speed?", "answer": "The internet is high-speed fiber optic connection." },
         { "question": "Are pets allowed?", "answer": "No, pets are strictly prohibited." }
-      ]
+      ],
+      "rating": 8
     },
     {
       "id": 9,
@@ -259,7 +260,8 @@ const roomdetailsdata =
         { "question": "Can we bring our own furniture?", "answer": "No, no additional furniture is allowed." },
         { "question": "Is there a TV room?", "answer": "Yes, there is a common TV room with cable." },
         { "question": "Is security strict?", "answer": "Yes, strict security measures are in place 24/7." }
-      ]
+      ],
+      "rating": 6
     },
     {
       "id": 10,
@@ -287,7 +289,8 @@ const roomdetailsdata =
         { "question": "Are guests allowed?", "answer": "Visitors are not allowed in the rooms. They must meet in the lobby." },
         { "question": "What are the rules for the balcony?", "answer": "No smoking is allowed on the balcony." },
         { "question": "Is this a new building?", "answer": "Yes, this residential hall was built last year." }
-      ]
+      ],
+      "rating": 10
     },
     {
       "id": 11,
@@ -302,8 +305,6 @@ const roomdetailsdata =
         "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/7ce7e13f-fab8-49c5-a134-b358a323b99b.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/05f6f4d3-d3b2-43d0-8c11-1ae924436c49.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/bb0c2b29-14e5-4d42-9680-1a066aeeb1cc.jpeg?im_w=720",
-
-        
       ],
       "testimonials": [
         { "author": "Ankit Verma", "rating": 5, "comment": "The AC and TV are a great addition. Very comfortable." },
@@ -318,7 +319,8 @@ const roomdetailsdata =
         { "question": "Is there a laundry service?", "answer": "Yes, free laundry service is provided twice a week." },
         { "question": "What's the security like?", "answer": "There is a biometric entry system and 24/7 security." },
         { "question": "Can we bring our own fridge?", "answer": "No, but a mini-fridge is already provided." }
-      ]
+      ],
+      "rating": 9
     },
     {
       "id": 12,
@@ -346,7 +348,8 @@ const roomdetailsdata =
         { "question": "Are visitors allowed?", "answer": "Visitors are allowed in common areas during visiting hours." },
         { "question": "Can we have a personal TV?", "answer": "No, personal TVs are not allowed." },
         { "question": "Are there noise rules?", "answer": "Yes, quiet hours are from 10 PM to 7 AM." }
-      ]
+      ],
+      "rating": 8
     },
     {
       "id": 13,
@@ -374,7 +377,8 @@ const roomdetailsdata =
         { "question": "Can I bring my own furniture?", "answer": "No, the room comes fully furnished." },
         { "question": "Is the building accessible?", "answer": "Yes, there are elevators and ramps for accessibility." },
         { "question": "Are there community events?", "answer": "Yes, the hall organizes regular community events and activities." }
-      ]
+      ],
+      "rating": 9
     },
     {
       "id": 14,
@@ -383,7 +387,7 @@ const roomdetailsdata =
       "capacity": 2,
       "location": "Residential Hall 4 - Floor 3",
       "amenities": ["WiFi", "Shared Bathroom", "Ceiling Fan", "Wardrobe", "Study Table", "Attached Balcony"],
-    "images": [
+      "images": [
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
@@ -402,7 +406,8 @@ const roomdetailsdata =
         { "question": "Is the room cleaned regularly?", "answer": "Cleaning is done every alternate day." },
         { "question": "What are the visiting hours?", "answer": "Visiting hours are from 10 AM to 8 PM." },
         { "question": "Is there a parking space?", "answer": "Limited parking for two-wheelers is available." }
-      ]
+      ],
+      "rating": 8
     },
     {
       "id": 15,
@@ -430,7 +435,8 @@ const roomdetailsdata =
         { "question": "Is food available?", "answer": "There is a canteen in the building, but food is not included in the rent." },
         { "question": "Can we bring a personal heater?", "answer": "No, personal heaters are not allowed due to fire safety." },
         { "question": "Is there a washing machine?", "answer": "Yes, a coin-operated washing machine is available in the laundry room." }
-      ]
+      ],
+      "rating": 7
     },
     {
       "id": 16,
@@ -445,8 +451,6 @@ const roomdetailsdata =
         "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/7ce7e13f-fab8-49c5-a134-b358a323b99b.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/05f6f4d3-d3b2-43d0-8c11-1ae924436c49.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/bb0c2b29-14e5-4d42-9680-1a066aeeb1cc.jpeg?im_w=720",
-
-        
       ],
       "testimonials": [
         { "author": "Gaurav Singh", "rating": 4, "comment": "Very affordable, good for group living." },
@@ -461,7 +465,8 @@ const roomdetailsdata =
         { "question": "Is the WiFi fast?", "answer": "The WiFi is generally good but can be slow during peak hours." },
         { "question": "Can we cook?", "answer": "Cooking inside the room is not allowed due to safety regulations." },
         { "question": "Are there medical facilities nearby?", "answer": "A medical dispensary is available on the ground floor." }
-      ]
+      ],
+      "rating": 6
     },
     {
       "id": 17,
@@ -489,7 +494,8 @@ const roomdetailsdata =
         { "question": "Is laundry service available?", "answer": "Yes, a paid laundry service is available." },
         { "question": "Can I have a mini-fridge?", "answer": "Mini-fridges are allowed with prior permission." },
         { "question": "Is there a common kitchen?", "answer": "No, there is no common kitchen in this block." }
-      ]
+      ],
+      "rating": 7
     },
     {
       "id": 18,
@@ -517,7 +523,8 @@ const roomdetailsdata =
         { "question": "Is there a security guard?", "answer": "Yes, 24/7 security is provided." },
         { "question": "What are the rules for visitors?", "answer": "Visitors are allowed in the common lobby area only." },
         { "question": "Is there a common area to watch TV?", "answer": "Yes, a common TV room is available in the lobby." }
-      ]
+      ],
+      "rating": 6
     },
     {
       "id": 19,
@@ -545,7 +552,8 @@ const roomdetailsdata =
         { "question": "Are guests allowed?", "answer": "Visitors are not allowed in the rooms. They must meet in the lobby." },
         { "question": "What are the rules for the pantry?", "answer": "No heavy cooking is allowed in the pantry." },
         { "question": "Are there any special rules?", "answer": "Noise levels should be kept to a minimum after 10 PM." }
-      ]
+      ],
+      "rating": 10
     },
     {
       "id": 20,
@@ -573,7 +581,8 @@ const roomdetailsdata =
         { "question": "Is there a laundry service?", "answer": "Yes, a paid laundry service is available." },
         { "question": "Are pets allowed?", "answer": "No, pets are strictly prohibited." },
         { "question": "What is the security like?", "answer": "24/7 security and CCTV monitoring are in place." }
-      ]
+      ],
+      "rating": 9
     }
   ];
 

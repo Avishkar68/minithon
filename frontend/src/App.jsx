@@ -35,7 +35,7 @@ const router = createBrowserRouter([
         element: <Rooms />,
       },
       {
-        path: '/rooms/:id', // Add the new route with a dynamic parameter
+        path: '/rooms/:id',
         element: <RoomDetailsPage />,
       },
     ],

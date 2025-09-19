@@ -10,20 +10,17 @@ const RoomDetailsPage = () => {
       <h2 className="text-center mt-10 text-red-500">Room not found</h2>
     );
 
-  // FAQ Accordion
   const [openIndex, setOpenIndex] = useState(null);
   const toggleFAQ = (idx) => {
     setOpenIndex(openIndex === idx ? null : idx);
   };
 
-  // Image Modal
   const [selectedImage, setSelectedImage] = useState(null);
   const openImage = (img) => setSelectedImage(img);
   const closeImage = () => setSelectedImage(null);
 
   return (
     <div className="p-6 max-w-6xl mx-auto pt-20">
-      {/* Back Button */}
       <Link
         to="/rooms"
         className="inline-block mb-10 bg-gray-900 text-white px-5 py-2 rounded-xl hover:bg-gray-700 transition"
@@ -31,7 +28,6 @@ const RoomDetailsPage = () => {
         ← Back to Rooms
       </Link>
 
-      {/* Header */}
       <div className="mb-8">
         <h1 className="text-4xl font-bold mb-2">{room.name}</h1>
         <p className="text-gray-600">{room.location}</p>
@@ -40,7 +36,6 @@ const RoomDetailsPage = () => {
         </p>
       </div>
 
-      {/* Images */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
         {room.images.map((img, idx) => (
           <img
@@ -53,7 +48,6 @@ const RoomDetailsPage = () => {
         ))}
       </div>
 
-      {/* Image Modal */}
       {selectedImage && (
         <div className="fixed inset-0 z-50 flex items-center justify-center backdrop-blur-md bg-black/70">
           <button
@@ -70,7 +64,6 @@ const RoomDetailsPage = () => {
         </div>
       )}
 
-      {/* Amenities */}
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Amenities</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -85,7 +78,6 @@ const RoomDetailsPage = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-6 text-center">
           What Our Residents Say
@@ -106,7 +98,6 @@ const RoomDetailsPage = () => {
         </div>
       </section>
 
-      {/* FAQs */}
       <section>
         <h2 className="text-2xl font-semibold mb-6 text-center">
           Everything You Need to Know

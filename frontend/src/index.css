@@ -4,12 +4,10 @@
 
 
 @theme {
-  /* Colors */
   --color-mainbg: #000;
   --color-maintext: #fff;
   --color-subtext: #A9A9A9;
 
-  /* Fonts */
   --font-comfortaa: 'comfortaa', sans-serif;
  
 }
