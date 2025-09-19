@@ -8,10 +8,15 @@ const roomdetailsdata =
       "location": "Main Campus - East Wing",
       "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Wardrobe", "Mini Fridge"],
       "images": [
-        "https://picsum.photos/400/300?random=1",
-        "https://picsum.photos/400/300?random=2",
-        "https://picsum.photos/400/300?random=3"
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/554f41cd-21be-4ef0-8596-f6e67f520087.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/bec6720a-72f0-4486-a864-5207952d0ccf.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/7ce7e13f-fab8-49c5-a134-b358a323b99b.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/05f6f4d3-d3b2-43d0-8c11-1ae924436c49.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/bb0c2b29-14e5-4d42-9680-1a066aeeb1cc.jpeg?im_w=720",
+
+        
       ],
+
       "testimonials": [
         { "author": "Ravi Kumar", "rating": 5, "comment": "Very comfortable and clean. Perfect for students." },
         { "author": "Priya Sharma", "rating": 4, "comment": "Quiet environment, great for studying." },
@@ -35,10 +40,12 @@ const roomdetailsdata =
       "location": "Main Campus - North Wing",
       "amenities": ["WiFi", "Shared Bathroom", "Ceiling Fan", "Cupboard", "Table Lamp"],
       "images": [
-        "https://picsum.photos/400/300?random=4",
-        "https://picsum.photos/400/300?random=5",
-        "https://picsum.photos/400/300?random=6"
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/7a89eb46-54d1-486a-b8e9-8be2df4c0e71.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/c2cd8603-a2a2-4f3d-b894-e8b57cf4998c.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/6dc7c878-b6f0-45a3-9a68-e61f69a2902d.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/409f9ea3-c424-480d-8674-9595e9e88bab.jpeg?im_w=1200",
       ],
+
       "testimonials": [
         { "author": "Ankit Verma", "rating": 4, "comment": "Affordable and decent facilities." },
         { "author": "Neha Gupta", "rating": 3, "comment": "Good for budget stay but bathrooms can be improved." },
@@ -62,9 +69,10 @@ const roomdetailsdata =
       "location": "Main Campus - West Wing",
       "amenities": ["WiFi", "Shared Bathroom", "Fan", "Basic Furniture", "Common Study Area"],
       "images": [
-        "https://picsum.photos/400/300?random=7",
-        "https://picsum.photos/400/300?random=8",
-        "https://picsum.photos/400/300?random=9"
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
       ],
       "testimonials": [
         { "author": "Arjun Mehta", "rating": 4, "comment": "Good space-sharing and cooperative roommates." },
@@ -90,9 +98,10 @@ const roomdetailsdata =
       "location": "Annex Building - Floor 2",
       "amenities": ["WiFi", "Study Table", "Fan", "Shared Bathroom", "Cupboard"],
       "images": [
-        "https://picsum.photos/400/300?random=10",
-        "https://picsum.photos/400/300?random=11",
-        "https://picsum.photos/400/300?random=12"
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1457305354224119542/original/7c1f65bc-1aad-4b48-91ec-b6aea47c429d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/9be613bf-0098-4489-b685-4be2d58614e2.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/9be613bf-0098-4489-b685-4be2d58614e2.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/f3b1e2d9-ffb7-4bd8-909b-5702d64d9759.jpeg?im_w=1200"
       ],
       "testimonials": [
         { "author": "Gaurav Singh", "rating": 4, "comment": "Private space is a plus, a bit small but functional." },
@@ -117,9 +126,10 @@ const roomdetailsdata =
       "location": "Annex Building - Floor 3",
       "amenities": ["WiFi", "Shared Bathroom", "Fan", "Basic Furniture", "Study Area"],
       "images": [
-        "https://picsum.photos/400/300?random=13",
-        "https://picsum.photos/400/300?random=14",
-        "https://picsum.photos/400/300?random=15"
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
       ],
       "testimonials": [
         { "author": "Suman Das", "rating": 4, "comment": "Great for making new friends." },
@@ -144,9 +154,13 @@ const roomdetailsdata =
       "location": "Annex Building - Ground Floor",
       "amenities": ["WiFi", "Shared Bathroom", "Fan", "Individual Beds", "Locker"],
       "images": [
-        "https://picsum.photos/400/300?random=16",
-        "https://picsum.photos/400/300?random=17",
-        "https://picsum.photos/400/300?random=18"
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/554f41cd-21be-4ef0-8596-f6e67f520087.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/bec6720a-72f0-4486-a864-5207952d0ccf.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/7ce7e13f-fab8-49c5-a134-b358a323b99b.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/05f6f4d3-d3b2-43d0-8c11-1ae924436c49.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/bb0c2b29-14e5-4d42-9680-1a066aeeb1cc.jpeg?im_w=720",
+
+        
       ],
       "testimonials": [
         { "author": "Kavita Reddy", "rating": 4, "comment": "Spacious for three people, lots of storage." },
@@ -171,9 +185,10 @@ const roomdetailsdata =
       "location": "Residential Hall 1 - Floor 4",
       "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Smart TV", "Mini Fridge", "Microwave"],
       "images": [
-        "https://picsum.photos/400/300?random=19",
-        "https://picsum.photos/400/300?random=20",
-        "https://picsum.photos/400/300?random=21"
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/7a89eb46-54d1-486a-b8e9-8be2df4c0e71.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/c2cd8603-a2a2-4f3d-b894-e8b57cf4998c.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/6dc7c878-b6f0-45a3-9a68-e61f69a2902d.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/409f9ea3-c424-480d-8674-9595e9e88bab.jpeg?im_w=1200",
       ],
       "testimonials": [
         { "author": "Ananya Desai", "rating": 5, "comment": "Feels like a private apartment. Worth every penny." },
@@ -198,9 +213,10 @@ const roomdetailsdata =
       "location": "Residential Hall 1 - Floor 3",
       "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Wardrobe", "Common Balcony"],
       "images": [
-        "https://picsum.photos/400/300?random=22",
-        "https://picsum.photos/400/300?random=23",
-        "https://picsum.photos/400/300?random=24"
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
       ],
       "testimonials": [
         { "author": "Aditya Singh", "rating": 5, "comment": "The AC and attached bathroom make it very comfortable." },
@@ -225,9 +241,10 @@ const roomdetailsdata =
       "location": "Residential Hall 2 - Floor 2",
       "amenities": ["WiFi", "Shared Bathroom", "Fan", "Bunk Beds", "Common Study Area"],
       "images": [
-        "https://picsum.photos/400/300?random=25",
-        "https://picsum.photos/400/300?random=26",
-        "https://picsum.photos/400/300?random=27"
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1457305354224119542/original/7c1f65bc-1aad-4b48-91ec-b6aea47c429d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/9be613bf-0098-4489-b685-4be2d58614e2.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/9be613bf-0098-4489-b685-4be2d58614e2.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/f3b1e2d9-ffb7-4bd8-909b-5702d64d9759.jpeg?im_w=1200"
       ],
       "testimonials": [
         { "author": "Karan Jain", "rating": 4, "comment": "Very budget-friendly, great for new students." },
@@ -252,9 +269,10 @@ const roomdetailsdata =
       "location": "Residential Hall 3 - Floor 5",
       "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Smart TV", "Personal Balcony", "Pantry"],
       "images": [
-        "https://picsum.photos/400/300?random=28",
-        "https://picsum.photos/400/300?random=29",
-        "https://picsum.photos/400/300?random=30"
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
       ],
       "testimonials": [
         { "author": "Rohan Patel", "rating": 5, "comment": "Absolute luxury. The balcony is a game changer." },
@@ -279,9 +297,13 @@ const roomdetailsdata =
       "location": "Residential Hall 3 - Floor 4",
       "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Smart TV", "Shared Balcony"],
       "images": [
-        "https://picsum.photos/400/300?random=31",
-        "https://picsum.photos/400/300?random=32",
-        "https://picsum.photos/400/300?random=33"
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/554f41cd-21be-4ef0-8596-f6e67f520087.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/bec6720a-72f0-4486-a864-5207952d0ccf.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/7ce7e13f-fab8-49c5-a134-b358a323b99b.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/05f6f4d3-d3b2-43d0-8c11-1ae924436c49.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/bb0c2b29-14e5-4d42-9680-1a066aeeb1cc.jpeg?im_w=720",
+
+        
       ],
       "testimonials": [
         { "author": "Ankit Verma", "rating": 5, "comment": "The AC and TV are a great addition. Very comfortable." },
@@ -306,9 +328,10 @@ const roomdetailsdata =
       "location": "Residential Hall 3 - Floor 2",
       "amenities": ["WiFi", "Air Conditioning", "Attached Bathroom", "Wardrobe", "Study Table", "Locker"],
       "images": [
-        "https://picsum.photos/400/300?random=34",
-        "https://picsum.photos/400/300?random=35",
-        "https://picsum.photos/400/300?random=36"
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/7a89eb46-54d1-486a-b8e9-8be2df4c0e71.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/c2cd8603-a2a2-4f3d-b894-e8b57cf4998c.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/6dc7c878-b6f0-45a3-9a68-e61f69a2902d.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/409f9ea3-c424-480d-8674-9595e9e88bab.jpeg?im_w=1200",
       ],
       "testimonials": [
         { "author": "Rahul Nair", "rating": 5, "comment": "Great for a group of friends. AC is a huge plus." },
@@ -333,9 +356,10 @@ const roomdetailsdata =
       "location": "Residential Hall 4 - Floor 6",
       "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Window with a view", "Wardrobe", "Mini Fridge"],
       "images": [
-        "https://picsum.photos/400/300?random=37",
-        "https://picsum.photos/400/300?random=38",
-        "https://picsum.photos/400/300?random=39"
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
       ],
       "testimonials": [
         { "author": "Ananya Kumar", "rating": 5, "comment": "The view is amazing. The room is very comfortable." },
@@ -359,10 +383,11 @@ const roomdetailsdata =
       "capacity": 2,
       "location": "Residential Hall 4 - Floor 3",
       "amenities": ["WiFi", "Shared Bathroom", "Ceiling Fan", "Wardrobe", "Study Table", "Attached Balcony"],
-      "images": [
-        "https://picsum.photos/400/300?random=40",
-        "https://picsum.photos/400/300?random=41",
-        "https://picsum.photos/400/300?random=42"
+    "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
       ],
       "testimonials": [
         { "author": "Aditya Das", "rating": 4, "comment": "The balcony is a great feature. Room is decent." },
@@ -387,9 +412,10 @@ const roomdetailsdata =
       "location": "Residential Hall 5 - Floor 1",
       "amenities": ["WiFi", "Shared Bathroom", "Fan", "Individual Beds", "Locker", "Common Lounge Access"],
       "images": [
-        "https://picsum.photos/400/300?random=43",
-        "https://picsum.photos/400/300?random=44",
-        "https://picsum.photos/400/300?random=45"
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
       ],
       "testimonials": [
         { "author": "Arjun Das", "rating": 4, "comment": "Good price and the common lounge is a great place to hang out." },
@@ -414,9 +440,13 @@ const roomdetailsdata =
       "location": "Residential Hall 5 - Floor 2",
       "amenities": ["WiFi", "Shared Bathroom", "Fan", "Bunk Beds", "Common Lounge Access"],
       "images": [
-        "https://picsum.photos/400/300?random=46",
-        "https://picsum.photos/400/300?random=47",
-        "https://picsum.photos/400/300?random=48"
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/554f41cd-21be-4ef0-8596-f6e67f520087.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/bec6720a-72f0-4486-a864-5207952d0ccf.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/7ce7e13f-fab8-49c5-a134-b358a323b99b.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/05f6f4d3-d3b2-43d0-8c11-1ae924436c49.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1270282664265188207/original/bb0c2b29-14e5-4d42-9680-1a066aeeb1cc.jpeg?im_w=720",
+
+        
       ],
       "testimonials": [
         { "author": "Gaurav Singh", "rating": 4, "comment": "Very affordable, good for group living." },
@@ -441,9 +471,10 @@ const roomdetailsdata =
       "location": "Satellite Dorm - Block A",
       "amenities": ["WiFi", "Study Table", "Fan", "Attached Bathroom", "Cupboard"],
       "images": [
-        "https://picsum.photos/400/300?random=49",
-        "https://picsum.photos/400/300?random=50",
-        "https://picsum.photos/400/300?random=51"
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/7a89eb46-54d1-486a-b8e9-8be2df4c0e71.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/c2cd8603-a2a2-4f3d-b894-e8b57cf4998c.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/6dc7c878-b6f0-45a3-9a68-e61f69a2902d.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/409f9ea3-c424-480d-8674-9595e9e88bab.jpeg?im_w=1200",
       ],
       "testimonials": [
         { "author": "Preeti Sharma", "rating": 4, "comment": "Small but very private and clean." },
@@ -468,9 +499,10 @@ const roomdetailsdata =
       "location": "Satellite Dorm - Block B",
       "amenities": ["WiFi", "Shared Bathroom", "Fan", "Bunk Beds", "Study Table"],
       "images": [
-        "https://picsum.photos/400/300?random=52",
-        "https://picsum.photos/400/300?random=53",
-        "https://picsum.photos/400/300?random=54"
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
       ],
       "testimonials": [
         { "author": "Aditya Roy", "rating": 4, "comment": "Affordable and functional. Bunk beds save space." },
@@ -495,9 +527,10 @@ const roomdetailsdata =
       "location": "High-Rise Building - Floor 10",
       "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Wardrobe", "Personal Pantry"],
       "images": [
-        "https://picsum.photos/400/300?random=55",
-        "https://picsum.photos/400/300?random=56",
-        "https://picsum.photos/400/300?random=57"
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
       ],
       "testimonials": [
         { "author": "Rohan Patel", "rating": 5, "comment": "The personal pantry is a lifesaver. Feels very luxurious." },
@@ -522,9 +555,10 @@ const roomdetailsdata =
       "location": "High-Rise Building - Floor 8",
       "amenities": ["WiFi", "Air Conditioning", "Attached Bathroom", "Study Table", "Window with a view", "Wardrobe"],
       "images": [
-        "https://picsum.photos/400/300?random=58",
-        "https://picsum.photos/400/300?random=59",
-        "https://picsum.photos/400/300?random=60"
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
       ],
       "testimonials": [
         { "author": "Ankit Kumar", "rating": 5, "comment": "The view is breathtaking. The AC is a huge plus." },
