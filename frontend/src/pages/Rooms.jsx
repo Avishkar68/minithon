@@ -1,28 +1,128 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import roomdetailsdata from '../data/roomdetailsdata'; // import your JSON file
 
 const Rooms = () => {
+  const [priceRange, setPriceRange] = useState([0, 10000]);
+  const [selectedAmenities, setSelectedAmenities] = useState([]);
+  const [selectedLocation, setSelectedLocation] = useState('');
+
+  // Get unique amenities and locations dynamically
+  const allAmenities = [...new Set(roomdetailsdata.flatMap(room => room.amenities))];
+  const allLocations = [...new Set(roomdetailsdata.map(room => room.location))];
+
+  // Filtering logic
+  const filteredRooms = roomdetailsdata.filter(room => {
+    const inPriceRange = room.price >= priceRange[0] && room.price <= priceRange[1];
+
+    const hasAmenities =
+      selectedAmenities.length === 0 ||
+      selectedAmenities.every(am => room.amenities.includes(am));
+
+    const matchesLocation = !selectedLocation || room.location === selectedLocation;
+
+    return inPriceRange && hasAmenities && matchesLocation;
+  });
+
+  // Toggle amenities filter
+  const toggleAmenity = (amenity) => {
+    setSelectedAmenities(prev =>
+      prev.includes(amenity) ? prev.filter(a => a !== amenity) : [...prev, amenity]
+    );
+  };
+
   return (
-    <div className="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-30">
-      {roomdetailsdata.map((room) => (
-        <div key={room.id} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-          <img src={room.images[0]} alt={room.name} className="w-full h-48 object-cover" />
-          <div className="p-4">
-            <h2 className="text-xl font-semibold">{room.name}</h2>
-            <p className="text-gray-600">{room.location}</p>
-            <p className="text-gray-800 font-bold mt-2">₹{room.price} / month</p>
-            <p className="text-gray-500 text-sm">Capacity: {room.capacity} person(s)</p>
-            
-            <Link 
-              to={`/roomdetails/${room.id}`} 
-              className="mt-4 block w-full bg-blue-600 text-white py-2 rounded-lg text-center hover:bg-blue-700 transition"
-            >
-              Book Now
-            </Link>
+    <div className="flex gap-2 pt-30 min-h-screen justify-center lg:justify-start">
+      {/* Sidebar Filters */}
+      <div className="w-[280px] pb-9 border border-black/5 ml-4 h-fit bg-white rounded-2xl shadow-lg fixed p-4  overflow-y-auto">
+        <h3 className="font-bold text-lg mb-2">Filters</h3>
+
+        {/* Price Range */}
+        <div className="mb-4">
+          <h4 className="font-semibold">Price Range</h4>
+          <input
+            type="range"
+            min="0"
+            max="10000"
+            step="500"
+            value={priceRange[1]}
+            onChange={(e) => setPriceRange([0, Number(e.target.value)])}
+            className="w-full"
+          />
+          <p className="text-sm text-gray-600">Up to ₹{priceRange[1]}</p>
+        </div>
+
+        {/* Amenities */}
+        <div className="mb-4">
+          <h4 className="font-semibold">Amenities</h4>
+          <div className="flex flex-col gap-1 max-h-40 overflow-y-auto">
+            {allAmenities.map((amenity, i) => (
+              <label key={i} className="flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  checked={selectedAmenities.includes(amenity)}
+                  onChange={() => toggleAmenity(amenity)}
+                />
+                {amenity}
+              </label>
+            ))}
           </div>
         </div>
-      ))}
+
+        {/* Location */}
+        <div className="mb-4">
+          <h4 className="font-semibold">Location</h4>
+          <select
+            value={selectedLocation}
+            onChange={(e) => setSelectedLocation(e.target.value)}
+            className="w-full border rounded p-1"
+          >
+            <option value="">All</option>
+            {allLocations.map((loc, i) => (
+              <option key={i} value={loc}>
+                {loc}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+
+      {/* Rooms Grid */}
+      <div className="lg:pl-[320px] p-6 pt-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {filteredRooms.length > 0 ? (
+          filteredRooms.map((room) => (
+            <div
+              key={room.id}
+              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition"
+            >
+              <img
+                src={room.images[0]}
+                alt={room.name}
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-4">
+                <h2 className="text-xl font-semibold">{room.name}</h2>
+                <p className="text-gray-600">{room.location}</p>
+                <p className="text-gray-800 font-bold mt-2">₹{room.price} / month</p>
+                <p className="text-gray-500 text-sm">
+                  Capacity: {room.capacity} person(s)
+                </p>
+
+                <Link
+                  to={`/rooms/${room.id}`}
+                  className="mt-4 block w-full bg-blue-600 text-white py-2 rounded-lg text-center hover:bg-blue-700 transition"
+                >
+                  Book Now
+                </Link>
+              </div>
+            </div>
+          ))
+        ) : (
+          <p className="col-span-full text-center text-gray-600">
+            No rooms match your filters.
+          </p>
+        )}
+      </div>
     </div>
   );
 };

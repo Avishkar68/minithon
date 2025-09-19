@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-400 px-8 py-12">
+    <footer className="bg-gray-900 text-gray-400 px-8 py-6">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
         {/* Brand */}
         <div>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center text-gray-500 text-sm mt-10 border-t border-gray-700 pt-6">
+      <div className="text-center text-gray-500 text-sm mt-2 border-t border-gray-700 pt-2">
         © 2024 PEACEREST. All Rights Reserved.
       </div>
     </footer>

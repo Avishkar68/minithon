@@ -5,11 +5,13 @@ import roomdetailsdata from '../data/roomdetailsdata';
 const RoomDetailsPage = () => {
   const { id } = useParams();
   const room = roomdetailsdata.find((r) => r.id === parseInt(id));
-
   if (!room) return <h2 className="text-center mt-10 text-red-500">Room not found</h2>;
 
   return (
-    <div className="p-6 max-w-5xl mx-auto">
+    <div className="p-6 max-w-5xl mx-auto pt-20">
+      <Link to="/rooms" className="mt-6 inline-block mb-10 bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition">
+        Back to Rooms
+      </Link>
       <h1 className="text-3xl font-bold mb-4">{room.name}</h1>
       <p className="text-gray-600 mb-2">{room.location}</p>
       <p className="text-gray-800 font-bold mb-4">₹{room.price} / month</p>
@@ -51,9 +53,7 @@ const RoomDetailsPage = () => {
         ))}
       </div>
 
-      <Link to="/" className="mt-6 inline-block bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition">
-        Back to Rooms
-      </Link>
+
     </div>
   );
 };

@@ -53,7 +53,7 @@ const Navbar = () => {
       <div
         className="
           p-1.5 rounded-full 
-          bg-white/10 border border-white/15 
+          bg-white/10 border border-black/5
           backdrop-blur-md
         "
       >
@@ -69,7 +69,7 @@ const Navbar = () => {
                   ${
                     activeLink === link
                       ? 'bg-white text-black font-medium shadow-md' // Active link style
-                      : 'text-gray-200 hover:text-white' // Inactive link style
+                      : 'text-black/80 hover:text-black' // Inactive link style
                   }
                 `}
               >
