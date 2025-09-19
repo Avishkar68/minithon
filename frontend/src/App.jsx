@@ -5,6 +5,7 @@ import Landing from './pages/Landing';
 import Rooms from './pages/Rooms';
 import Admin from './pages/Admin';
 import RoomDetailsPage from './pages/RoomDetailsPage';
+import ComparePage from './pages/ComparePage';
 
 
 const Layout = () => {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: '/rooms/:id',
         element: <RoomDetailsPage />,
+      },
+      {
+        path: '/compare',
+        element: <ComparePage />,
       },
     ],
   },
