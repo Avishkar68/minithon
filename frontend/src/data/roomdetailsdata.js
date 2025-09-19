@@ -42,6 +42,7 @@ const roomdetailsdata =
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/c2cd8603-a2a2-4f3d-b894-e8b57cf4998c.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/6dc7c878-b6f0-45a3-9a68-e61f69a2902d.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/409f9ea3-c424-480d-8674-9595e9e88bab.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/409f9ea3-c424-480d-8674-9595e9e88bab.jpeg?im_w=1200",
       ],
       "testimonials": [
         { "author": "Ankit Verma", "rating": 4, "comment": "Affordable and decent facilities." },
@@ -69,6 +70,7 @@ const roomdetailsdata =
       "images": [
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
       ],
@@ -99,6 +101,7 @@ const roomdetailsdata =
         "https://a0.muscache.com/im/pictures/miso/Hosting-1457305354224119542/original/7c1f65bc-1aad-4b48-91ec-b6aea47c429d.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/9be613bf-0098-4489-b685-4be2d58614e2.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/9be613bf-0098-4489-b685-4be2d58614e2.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/f3b1e2d9-ffb7-4bd8-909b-5702d64d9759.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/f3b1e2d9-ffb7-4bd8-909b-5702d64d9759.jpeg?im_w=1200"
       ],
       "testimonials": [
@@ -127,6 +130,7 @@ const roomdetailsdata =
       "images": [
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
       ],
@@ -186,6 +190,7 @@ const roomdetailsdata =
       "images": [
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/7a89eb46-54d1-486a-b8e9-8be2df4c0e71.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/c2cd8603-a2a2-4f3d-b894-e8b57cf4998c.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/c2cd8603-a2a2-4f3d-b894-e8b57cf4998c.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/6dc7c878-b6f0-45a3-9a68-e61f69a2902d.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/409f9ea3-c424-480d-8674-9595e9e88bab.jpeg?im_w=1200",
       ],
@@ -215,6 +220,7 @@ const roomdetailsdata =
       "images": [
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
       ],
@@ -243,6 +249,7 @@ const roomdetailsdata =
       "amenities": ["WiFi", "Shared Bathroom", "Fan", "Bunk Beds", "Common Study Area"],
       "images": [
         "https://a0.muscache.com/im/pictures/miso/Hosting-1457305354224119542/original/7c1f65bc-1aad-4b48-91ec-b6aea47c429d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/9be613bf-0098-4489-b685-4be2d58614e2.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/9be613bf-0098-4489-b685-4be2d58614e2.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/9be613bf-0098-4489-b685-4be2d58614e2.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ1NzMwNTM1NDIyNDExOTU0Mg==/original/f3b1e2d9-ffb7-4bd8-909b-5702d64d9759.jpeg?im_w=1200"
@@ -333,6 +340,7 @@ const roomdetailsdata =
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/7a89eb46-54d1-486a-b8e9-8be2df4c0e71.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/c2cd8603-a2a2-4f3d-b894-e8b57cf4998c.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/6dc7c878-b6f0-45a3-9a68-e61f69a2902d.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/6dc7c878-b6f0-45a3-9a68-e61f69a2902d.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/409f9ea3-c424-480d-8674-9595e9e88bab.jpeg?im_w=1200",
       ],
       "testimonials": [
@@ -362,6 +370,7 @@ const roomdetailsdata =
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
       ],
       "testimonials": [
@@ -389,6 +398,7 @@ const roomdetailsdata =
       "amenities": ["WiFi", "Shared Bathroom", "Ceiling Fan", "Wardrobe", "Study Table", "Attached Balcony"],
       "images": [
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
@@ -418,6 +428,7 @@ const roomdetailsdata =
       "amenities": ["WiFi", "Shared Bathroom", "Fan", "Individual Beds", "Locker", "Common Lounge Access"],
       "images": [
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
@@ -479,6 +490,7 @@ const roomdetailsdata =
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/7a89eb46-54d1-486a-b8e9-8be2df4c0e71.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/c2cd8603-a2a2-4f3d-b894-e8b57cf4998c.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/6dc7c878-b6f0-45a3-9a68-e61f69a2902d.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/6dc7c878-b6f0-45a3-9a68-e61f69a2902d.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1314458757816205613/original/409f9ea3-c424-480d-8674-9595e9e88bab.jpeg?im_w=1200",
       ],
       "testimonials": [
@@ -506,6 +518,7 @@ const roomdetailsdata =
       "amenities": ["WiFi", "Shared Bathroom", "Fan", "Bunk Beds", "Study Table"],
       "images": [
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
@@ -537,6 +550,7 @@ const roomdetailsdata =
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
         "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
       ],
       "testimonials": [
@@ -564,6 +578,7 @@ const roomdetailsdata =
       "amenities": ["WiFi", "Air Conditioning", "Attached Bathroom", "Study Table", "Window with a view", "Wardrobe"],
       "images": [
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"

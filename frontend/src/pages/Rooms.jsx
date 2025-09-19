@@ -102,7 +102,7 @@ const Rooms = () => {
 
                 <Link
                   to={`/rooms/${room.id}`}
-                  className="mt-4 block w-full bg-blue-600 text-white py-2 rounded-lg text-center hover:bg-blue-700 transition"
+                  className="mt-4 block w-full bg-[#E17100] text-white py-2 rounded-lg text-center hover:bg-[#804001] transition"
                 >
                   Book Now
                 </Link>
