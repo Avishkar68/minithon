@@ -22,7 +22,7 @@
 
 // export default Navbar;
 import React, { useState } from 'react';
-
+import logo from "../assets/logo.png"
 const Navbar = () => {
   // In a real app, you'd use NavLink from react-router-dom for the active state.
   const [activeLink, setActiveLink] = useState('Home');
@@ -38,15 +38,7 @@ const Navbar = () => {
     >
       {/* ## Left Section: Logo ## */}
       <div className="flex items-center gap-2.5 text-2xl font-semibold">
-        <div
-          className="
-            text-white 
-            text-xl font-comfortaa tracking-wider 
-            [text-shadow:1px_1px_3px_rgba(0,0,0,0.5)]
-          "
-        >
-          GradNest
-        </div>
+        <img className='w-[100px]' src={logo} />
       </div>
 
       {/* ## Middle Section: Navigation Links with Glass Effect ## */}
