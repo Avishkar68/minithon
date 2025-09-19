@@ -1,4 +1,5 @@
-[
+const roomdetailsdata =
+  [
     {
       "id": 1,
       "name": "Single Room - Deluxe",
@@ -77,8 +78,9 @@
         { "question": "Is electricity included?", "answer": "Yes, basic electricity charges are included in the rent." },
         { "question": "Do we get hot water?", "answer": "Hot water is available in the mornings." },
         { "question": "Can we cook inside?", "answer": "Cooking inside the room is not allowed." },
-        "answer": "No, pets are not allowed inside dormitories." }
+        { "question": "Are pets allowed?", "answer": "No, pets are not allowed inside dormitories." }
       ]
+
     },
     {
       "id": 4,
@@ -539,4 +541,6 @@
         { "question": "What is the security like?", "answer": "24/7 security and CCTV monitoring are in place." }
       ]
     }
-  ]
+  ];
+
+export default roomdetailsdata;
