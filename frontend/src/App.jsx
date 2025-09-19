@@ -1,11 +1,10 @@
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Home from './pages/Home';
-import Profile from './pages/Profile';
 import Landing from './pages/Landing';
 import Rooms from './pages/Rooms';
 import Admin from './pages/Admin';
+import RoomDetailsPage from './pages/RoomDetailsPage';
 
 
 const Layout = () => {
@@ -34,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: '/rooms',
         element: <Rooms />,
+      },
+      {
+        path: '/rooms/:id', // Add the new route with a dynamic parameter
+        element: <RoomDetailsPage />,
       },
     ],
   },
