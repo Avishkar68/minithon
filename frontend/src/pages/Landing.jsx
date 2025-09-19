@@ -592,7 +592,7 @@ const testimonials = [
         quote: "GradNest has been a game-changer for my university life. The community is amazing, and I’ve made friends for life here. Plus, the high-speed Wi-Fi is a lifesaver during exam season!",
         name: "Jessica Miller",
         major: "Computer Science",
-        img: "https://images.unsplash.com/photo-1529232382328-a2b86d525414?q=80&w=2940&auto=format&fit=crop"
+        img: "https://i.pinimg.com/736x/19/4f/e6/194fe66a3fe084acc193f3d5b18769e1.jpg"
     },
     {
         quote: "I was worried about moving to a new city, but the staff and residents at GradNest made me feel at home right away. The facilities are always clean, and the study lounges are perfect for group projects.",
