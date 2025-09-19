@@ -68,7 +68,7 @@ const Rooms = () => {
           <select
             value={selectedLocation}
             onChange={(e) => setSelectedLocation(e.target.value)}
-            className="w-full border rounded p-1"
+            className="w-full border  border-black/10 rounded p-1"
           >
             <option value="">All</option>
             {allLocations.map((loc, i) => (
