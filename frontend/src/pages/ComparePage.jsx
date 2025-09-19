@@ -92,8 +92,8 @@ export default function ComparePage() {
                 <div>
                   <p className="font-semibold text-gray-800">Key Features:</p>
                   <ul className="list-disc list-inside text-gray-600">
-                    {hotel.features && hotel.features.length > 0 ? (
-                      hotel.features
+                    {hotel.amenities && hotel.amenities.length > 0 ? (
+                      hotel.amenities
                         .slice(0, 5)
                         .map((f, i) => <li key={i}>{f}</li>)
                     ) : (
