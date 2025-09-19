@@ -135,23 +135,45 @@ const Home = () => {
       </section>
 
       <section className="px-8 py-20 bg-gray-50">
-        <div className="text-center max-w-3xl mx-auto mb-12">
-          <p className="uppercase text-sm font-semibold text-amber-600 mb-3 font-comfortaa">Find Your Space</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Our Room Types</h2>
-        </div>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-          {roomdetailsdata.slice(0, 3).map((room) => (
-            <div key={room.id} className="relative group overflow-hidden rounded-lg shadow-lg">
-              <img src={room.images[0]} alt={room.name} className="w-full h-96 object-cover transform transition-transform duration-500 group-hover:scale-110" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-              <div className="absolute bottom-0 left-0 p-6 text-white">
-                <h4 className="text-xl font-bold">{room.name}</h4>
-                <p className="text-gray-200">₹{room.price.toLocaleString('en-IN')}/mo</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+  <div className="text-center max-w-3xl mx-auto mb-12">
+    <p className="uppercase text-sm font-semibold text-amber-600 mb-3 font-comfortaa">
+      Find Your Space
+    </p>
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+      Our Top Rated Rooms
+    </h2>
+  </div>
+
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    {/* Sort by rating and take top 3 */}
+    {[...roomdetailsdata]
+      .sort((a, b) => b.rating - a.rating) // highest rated first
+      .slice(0, 3)
+      .map((room) => (
+        <Link
+          key={room.id}
+          to={`/rooms/${room.id}`} // ✅ Redirects to details page
+          className="relative group overflow-hidden rounded-lg shadow-lg block"
+        >
+          <img
+            src={room.images[0]}
+            alt={room.name}
+            className="w-full h-96 object-cover transform transition-transform duration-500 group-hover:scale-110"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+          <div className="absolute bottom-0 left-0 p-6 text-white">
+            <h4 className="text-xl font-bold">{room.name}</h4>
+            <p className="text-gray-200">
+              ₹{room.price.toLocaleString("en-IN")}/mo
+            </p>
+            <p className="text-yellow-400 font-semibold mt-1">
+              ⭐ {room.rating}
+            </p>
+          </div>
+        </Link>
+      ))}
+  </div>
+</section>
 
       <section id="features" className="px-8 py-20 md:py-28">
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -267,6 +289,61 @@ const Home = () => {
               alt="A well-lit dorm room"
               className="rounded-lg shadow-xl"
             />
+          </div>
+        </div>
+      </section>
+      <section id="contact" className="px-8 py-20 bg-gray-100">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          {/* Left side - Info */}
+          <div>
+            <p className="uppercase text-sm font-semibold text-amber-600 mb-3 font-comfortaa">Get in Touch</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Contact Us</h2>
+            <p className="text-lg text-gray-700 mb-6">
+              Have questions or want to schedule a tour?  
+              Our team is here to help you with anything you need.  
+              Reach out and we’ll get back to you soon!
+            </p>
+            <div className="space-y-3 text-gray-700">
+              <p>📍 Bandra, Mumbai, India</p>
+              <p>📞 +91 98765 43210</p>
+              <p>📧 admin@gradnest.com</p>
+            </div>
+          </div>
+
+          {/* Right side - Contact Form */}
+          <div className="bg-white p-8 rounded-lg shadow-lg">
+            <form className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-amber-500"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                <input
+                  type="email"
+                  placeholder="you@example.com"
+                  className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-amber-500"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                <textarea
+                  rows="4"
+                  placeholder="Your Message..."
+                  className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-amber-500"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                className="w-full bg-amber-600 text-white py-3 rounded-md font-semibold hover:bg-amber-700 transition"
+              >
+                Send Message
+              </button>
+            </form>
           </div>
         </div>
       </section>

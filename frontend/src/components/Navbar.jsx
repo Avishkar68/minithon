@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
-  const navLinks = ['Home', 'About', 'Features', 'Testimonials', 'FAQs'];
+  const navLinks = ['Home', 'About', 'Features', 'Testimonials', 'FAQs' ,'contact'];
   const [activeLink, setActiveLink] = useState('Home');
 
   useEffect(() => {
@@ -36,7 +36,9 @@ const Navbar = () => {
       "
     >
       <div className="flex items-center gap-2.5 text-2xl font-semibold">
+        <a href="/">
         <img className="w-[120px]" src={logo} alt="logo" />
+        </a>
       </div>
 
       <div
@@ -53,7 +55,7 @@ const Navbar = () => {
                 onClick={() => scrollToSection(link)}
                 className={`
                   block rounded-full px-5 py-2.5 text-sm
-                  transition-all duration-300
+                  transition-all duration-300 cursor-pointer
                   ${
                     activeLink === link
                       ? "bg-white text-black font-medium shadow-md"
@@ -74,7 +76,7 @@ const Navbar = () => {
           className="
             px-7 py-3 rounded-full text-sm font-medium 
             bg-white text-black shadow-lg
-            transition-transform duration-200 hover:scale-105
+            transition-transform duration-200 hover:scale-105 cursor-pointer
           "
         >
           Contact
@@ -83,7 +85,7 @@ const Navbar = () => {
           className="
             px-7 py-3 rounded-full text-sm font-medium 
             bg-zinc-900 text-white
-            transition-transform duration-200 hover:scale-105
+            transition-transform duration-200 hover:scale-105 cursor-pointer
           "
         >
           Login
