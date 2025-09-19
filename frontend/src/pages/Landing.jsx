@@ -1,15 +1,87 @@
-import React from "react";
-
+import React, { useEffect, useState,useRef } from "react";
+import gsap from "gsap"; 
+const images = [
+  'https://i.pinimg.com/1200x/82/99/b8/8299b864cb79cb04d040a00c8f2406d1.jpg'
+ 
+];
 const Home = () => {
+  const [current, setCurrent] = useState(0);
+  const textRef = useRef([]);
+  textRef.current = [];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % images.length);
+    }, 10000);
+    return () => clearInterval(interval);
+  }, []);
+
+   useEffect(() => {
+    gsap.fromTo(
+      textRef.current,
+      { opacity: 0, y: 30 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        stagger: 0.3,
+        ease: 'power3.out',
+      }
+    );
+  }, []);
+
+  const addToRefs = (el) => {
+    if (el && !textRef.current.includes(el)) {
+      textRef.current.push(el);
+    }
+  };
   return (
-    <div className="bg-white text-gray-900">
-     
-      {/* Hero Section */}
-      <section
+   <div className="bg-white text-gray-900">
+  {/* Hero Section */}
+  <div className="relative h-screen overflow-hidden font-basic">
+    {/* Background Slideshow */}
+    {images.map((img, index) => (
+      <div
+        key={index}
+        className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ${
+          index === current ? 'opacity-100' : 'opacity-0'
+        }`}
+        style={{
+          backgroundImage: `url(${img})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      ></div>
+    ))}
+
+    <div className="absolute inset-0 bg-black/50 z-10"></div>
+
+    {/* Text Content */}
+    <div className="relative z-20 flex flex-col items-center justify-center h-full text-white text-center px-4">
+      <p className="text-[12px] tracking-widest mb-4" ref={addToRefs}>
+        COMFY LIVING FOR STUDENTS
+      </p>
+      <h1 className="text-6xl md:text-7xl font-comfortaa mb-6" ref={addToRefs}>
+        GradNest Dorms
+      </h1>
+      <p className="text-lg mb-8" ref={addToRefs}>
+        Affordable, Modern, & Community-Focused Housing
+      </p>
+      <button
+        className="bg-black font-basic text-[12px] text-white px-11 py-6 cursor-pointer transition"
+        ref={addToRefs}
+      >
+        EXPLORE ROOMS →
+      </button>
+    </div>
+  </div>
+
+
+      {/* <section
         className="relative h-screen bg-cover bg-center flex flex-col justify-center items-center text-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80')",
+            "url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80')",
         }}
       >
         <p className="text-sm tracking-widest text-yellow-400 mb-2">★★★★★ BLOG</p>
@@ -20,11 +92,13 @@ const Home = () => {
         <button className="mt-6 bg-yellow-500 hover:bg-yellow-600 px-6 py-3 rounded shadow text-white font-semibold">
           Book an Appointment
         </button>
-      </section>
+      </section> */}
+
+      
 
       {/* About/Intro */}
       <section className="px-8 py-16 text-center max-w-4xl mx-auto">
-        <p className="uppercase text-sm text-yellow-600 mb-4">About Us</p>
+        <p className="uppercase text-sm text-yellow-600 mb-4 font-comfortaa">About Us</p>
         <p className="text-lg leading-relaxed text-gray-700">
           Since 2016, we’ve been helping travelers find stays they love — effortlessly.
           Our passion team has been helping travelers find the perfect stay, blending
@@ -59,7 +133,7 @@ const Home = () => {
             {
               name: "Deluxe Room",
               price: "$300/Night",
-              img: "https://images.unsplash.com/photo-1600607688968-6d1a18e48a63?auto=format&fit=crop&w=800&q=80",
+              img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
             },
             {
               name: "Standard Room",
@@ -69,7 +143,7 @@ const Home = () => {
             {
               name: "Superior Room",
               price: "$300/Night",
-              img: "https://images.unsplash.com/photo-1582719478148-5fd0b90479aa?auto=format&fit=crop&w=800&q=80",
+              img: "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=800&q=80",
             },
           ].map((room, i) => (
             <div key={i} className="relative group">
@@ -108,7 +182,12 @@ const Home = () => {
             {
               name: "Eclipse Grand Suite",
               price: "$190/Night",
-              img: "https://images.unsplash.com/photo-1600585154154-6a7e5d23b2e9?auto=format&fit=crop&w=800&q=80",
+              img: "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=800&q=80",
+            },
+            {
+              name: "Double Room Deluxe",
+              price: "$170/Night",
+              img: "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=800&q=80",
             },
             {
               name: "Double Room Deluxe",
@@ -132,7 +211,7 @@ const Home = () => {
         className="relative h-[60vh] bg-cover bg-center flex items-center justify-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1600585154206-0a0b9ac13d7d?auto=format&fit=crop&w=1600&q=80')",
+            "url('https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=800&q=80')",
         }}
       >
         <button className="bg-white rounded-full p-6 shadow-lg">▶</button>
@@ -145,7 +224,7 @@ const Home = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           <img
-            src="https://images.unsplash.com/photo-1600585154154-6a7e5d23b2e9?auto=format&fit=crop&w=800&q=80"
+            src="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=800&q=80"
             alt="Accommodation 1"
             className="rounded-lg shadow-lg"
           />
@@ -202,3 +281,5 @@ const Home = () => {
 };
 
 export default Home;
+
+
