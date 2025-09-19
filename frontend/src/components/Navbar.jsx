@@ -100,16 +100,16 @@
 
 import React, { useState, useEffect } from 'react';
 import logo from "../assets/logo.png";
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
     const navLinks = ['Home', 'About', 'Features', 'Testimonials', 'FAQs', 'Contact'];
     const [activeLink, setActiveLink] = useState('Home');
-    const [isMenuOpen, setIsMenuOpen] = useState(false); // State for mobile menu
-
-    // Effect to detect current section on scroll
+    const [isMenuOpen, setIsMenuOpen] = useState(false); 
+const navigate = useNavigate()
     useEffect(() => {
         const handleScroll = () => {
-            const scrollPos = window.scrollY + 150; // Offset to trigger sooner
+            const scrollPos = window.scrollY + 150; 
             let currentSection = 'Home';
             navLinks.forEach((link) => {
                 const section = document.getElementById(link.toLowerCase());
@@ -123,7 +123,6 @@ const Navbar = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, [navLinks]);
 
-    // Effect to prevent body scroll when mobile menu is open
     useEffect(() => {
         if (isMenuOpen) {
             document.body.style.overflow = 'hidden';
@@ -131,7 +130,7 @@ const Navbar = () => {
             document.body.style.overflow = 'auto';
         }
         return () => {
-            document.body.style.overflow = 'auto'; // Cleanup on component unmount
+            document.body.style.overflow = 'auto';
         };
     }, [isMenuOpen]);
 
@@ -140,18 +139,16 @@ const Navbar = () => {
         if (section) {
             section.scrollIntoView({ behavior: "smooth" });
             setActiveLink(link);
-            setIsMenuOpen(false); // Close mobile menu on link click
+            setIsMenuOpen(false);
         }
     };
 
     return (
         <nav className="fixed top-6 left-0 right-0 z-50 flex justify-between items-center px-6 md:px-10">
-            {/* Logo */}
             <a href="/" className="flex-shrink-0">
                 <img className="w-[120px]" src={logo} alt="logo" />
             </a>
 
-            {/* Desktop Navigation Links */}
             <div className="hidden md:flex p-1.5 rounded-full bg-white/10 border border-black/5 backdrop-blur-md">
                 <ul className="flex items-center gap-2">
                     {navLinks.map((link) => (
@@ -179,8 +176,8 @@ const Navbar = () => {
                 >
                     Contact
                 </button>
-                <button className="px-7 py-3 rounded-full text-sm font-medium bg-zinc-900 text-white transition-transform duration-200 hover:scale-105 cursor-pointer">
-                    Login
+                <button onClick={() => navigate("/admin")} className="px-7 py-3 rounded-full text-sm font-medium bg-zinc-900 text-white transition-transform duration-200 hover:scale-105 cursor-pointer">
+                    Admin
                 </button>
             </div>
 

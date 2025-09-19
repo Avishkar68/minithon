@@ -1,8 +1,6 @@
 const Reservation = require("../models/Reservation");
 
-// @desc    Create new reservation
-// @route   POST /api/reservations/:roomId
-// @access  Public
+
 const createReservation = async (req, res) => {
   try {
     const { name, email, months } = req.body;
