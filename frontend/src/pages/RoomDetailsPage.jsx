@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import roomdetailsdata from "../data/roomdetailsdata";
@@ -121,6 +120,8 @@ const RoomDetailsPage = () => {
   if (!room) {
     return <h2 className="text-center mt-10 text-red-500">Room not found</h2>;
   }
+  const mapQuery = encodeURIComponent(room.location);
+  const mapSrc = `https://maps.google.com/maps?q=${mapQuery}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
 
   return (
     <div className="bg-white">
@@ -273,7 +274,7 @@ const RoomDetailsPage = () => {
 
           {/* --- Right Column: Sticky Booking Card --- */}
           <div className="lg:col-span-1">
-            <div className=" top-28 p-6 sticky rounded-2xl shadow-lg bg-white">
+            <div className=" top-28 p-6  rounded-2xl shadow-lg bg-white">
               <p className="text-2xl font-bold mb-4">
                 ₹{room.price.toLocaleString("en-IN")}{" "}
                 <span className="text-lg font-normal text-gray-600">
@@ -302,6 +303,22 @@ const RoomDetailsPage = () => {
               <p className="text-center text-xs text-gray-500 mt-3">
                 You won't be charged yet
               </p>
+            </div>
+
+            <div className="mt-8">
+              <h3 className="text-xl font-semibold mb-4">Location</h3>
+              <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-xl ">
+                <iframe
+                  title="Room Location"
+                  src={mapSrc}
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
