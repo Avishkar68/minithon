@@ -85,7 +85,7 @@ const Rooms = () => {
           filteredRooms.map((room) => (
             <div
               key={room.id}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition"
+              className="bg-white h-fit rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition"
             >
               <img
                 src={room.images[0]}
