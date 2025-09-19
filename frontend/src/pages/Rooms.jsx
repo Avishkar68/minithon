@@ -4,7 +4,7 @@ import roomdetailsdata from '../data/roomdetailsdata'; // import your JSON file
 
 const Rooms = () => {
   return (
-    <div className="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-30">
       {roomdetailsdata.map((room) => (
         <div key={room.id} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
           <img src={room.images[0]} alt={room.name} className="w-full h-48 object-cover" />
