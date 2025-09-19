@@ -21,8 +21,6 @@
 // };
 
 // export default Navbar;
-
-
 import React, { useState } from 'react';
 
 const Navbar = () => {
@@ -33,30 +31,29 @@ const Navbar = () => {
   return (
     <nav
       className="
-        fixed top-6 left-1/2 -translate-x-1/2 
-        w-[95%] max-w-7xl z-50
+        fixed top-6 left-0 right-0 z-50
         flex justify-between items-center 
-        px-4 py-2
+        px-6 md:px-10
       "
     >
       {/* ## Left Section: Logo ## */}
-     <div className="flex items-center gap-2.5 text-2xl font-semibold">
-    <div 
-      className="
-        text-white 
-        text-xl font-comfortaa tracking-wider 
-        [--stroke-width:0.5px] [-webkit-text-stroke:var(--stroke-width)_black]
-      "
-    >
-      GradNest
-    </div>
-</div>
+      <div className="flex items-center gap-2.5 text-2xl font-semibold">
+        <div
+          className="
+            text-white 
+            text-xl font-comfortaa tracking-wider 
+            [text-shadow:1px_1px_3px_rgba(0,0,0,0.5)]
+          "
+        >
+          GradNest
+        </div>
+      </div>
 
       {/* ## Middle Section: Navigation Links with Glass Effect ## */}
       <div
         className="
           p-1.5 rounded-full 
-          bg-black/50 border border-white/15 
+          bg-white/10 border border-white/15 
           backdrop-blur-md
         "
       >
@@ -71,8 +68,8 @@ const Navbar = () => {
                   transition-all duration-300
                   ${
                     activeLink === link
-                      ? 'bg-white text-black font-medium shadow-md'
-                      : 'text-gray-200 hover:text-white'
+                      ? 'bg-white text-black font-medium shadow-md' // Active link style
+                      : 'text-gray-200 hover:text-white' // Inactive link style
                   }
                 `}
               >
