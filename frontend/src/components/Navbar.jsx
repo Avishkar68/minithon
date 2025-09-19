@@ -5,7 +5,6 @@ const Navbar = () => {
   const navLinks = ['Home', 'About', 'Features', 'Testimonials', 'FAQs'];
   const [activeLink, setActiveLink] = useState('Home');
 
-  // Highlight active section on scroll
   useEffect(() => {
     const handleScroll = () => {
       const scrollPos = window.scrollY + window.innerHeight / 2;
@@ -20,7 +19,6 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Smooth scroll to section
   const scrollToSection = (link) => {
     const section = document.getElementById(link.toLowerCase());
     if (section) {
@@ -37,12 +35,10 @@ const Navbar = () => {
         px-6 md:px-10
       "
     >
-      {/* ## Left Section: Logo ## */}
       <div className="flex items-center gap-2.5 text-2xl font-semibold">
         <img className="w-[120px]" src={logo} alt="logo" />
       </div>
 
-      {/* ## Middle Section: Navigation Links with Glass Effect ## */}
       <div
         className="
           p-1.5 rounded-full 
@@ -72,7 +68,6 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* ## Right Section: Action Buttons ## */}
       <div className="flex items-center gap-4">
         <button
           onClick={() => scrollToSection("FAQs")}

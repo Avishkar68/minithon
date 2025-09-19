@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import roomdetailsdata from '../data/roomdetailsdata'; // import your JSON file
+import roomdetailsdata from '../data/roomdetailsdata'; 
 
 const Rooms = () => {
   const [priceRange, setPriceRange] = useState([0, 10000]);
   const [selectedAmenities, setSelectedAmenities] = useState([]);
   const [selectedLocation, setSelectedLocation] = useState('');
 
-  // Get unique amenities and locations dynamically
   const allAmenities = [...new Set(roomdetailsdata.flatMap(room => room.amenities))];
   const allLocations = [...new Set(roomdetailsdata.map(room => room.location))];
 
-  // Filtering logic
   const filteredRooms = roomdetailsdata.filter(room => {
     const inPriceRange = room.price >= priceRange[0] && room.price <= priceRange[1];
 
@@ -24,7 +22,6 @@ const Rooms = () => {
     return inPriceRange && hasAmenities && matchesLocation;
   });
 
-  // Toggle amenities filter
   const toggleAmenity = (amenity) => {
     setSelectedAmenities(prev =>
       prev.includes(amenity) ? prev.filter(a => a !== amenity) : [...prev, amenity]
@@ -33,11 +30,9 @@ const Rooms = () => {
 
   return (
     <div className="flex gap-2 pt-30 min-h-screen justify-center lg:justify-start">
-      {/* Sidebar Filters */}
-      <div className="w-[280px] pb-9 border border-black/5 ml-4 h-fit bg-white rounded-2xl shadow-lg fixed p-4  overflow-y-auto">
+<div className="sticky top-24 self-start w-[280px] flex-none pb-9 border border-black/5 ml-4 h-fit bg-white rounded-2xl shadow-lg p-4 overflow-y-auto">
         <h3 className="font-bold text-lg mb-2">Filters</h3>
 
-        {/* Price Range */}
         <div className="mb-4">
           <h4 className="font-semibold">Price Range</h4>
           <input
@@ -52,7 +47,6 @@ const Rooms = () => {
           <p className="text-sm text-gray-600">Up to ₹{priceRange[1]}</p>
         </div>
 
-        {/* Amenities */}
         <div className="mb-4">
           <h4 className="font-semibold">Amenities</h4>
           <div className="flex flex-col gap-1 max-h-40 overflow-y-auto">
@@ -69,7 +63,6 @@ const Rooms = () => {
           </div>
         </div>
 
-        {/* Location */}
         <div className="mb-4">
           <h4 className="font-semibold">Location</h4>
           <select
@@ -87,8 +80,7 @@ const Rooms = () => {
         </div>
       </div>
 
-      {/* Rooms Grid */}
-      <div className="lg:pl-[320px] p-6 pt-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className=" p-6 pt-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredRooms.length > 0 ? (
           filteredRooms.map((room) => (
             <div
