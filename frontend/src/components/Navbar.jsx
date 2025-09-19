@@ -40,12 +40,17 @@ const Navbar = () => {
       "
     >
       {/* ## Left Section: Logo ## */}
-      <div className="flex items-center gap-2.5 text-white text-2xl font-semibold">
-        
-       <div className="text-white text-xl font-comfortaa tracking-wider">
-         GradNest
-      </div>
-      </div>
+     <div className="flex items-center gap-2.5 text-2xl font-semibold">
+    <div 
+      className="
+        text-white 
+        text-xl font-comfortaa tracking-wider 
+        [--stroke-width:0.5px] [-webkit-text-stroke:var(--stroke-width)_black]
+      "
+    >
+      GradNest
+    </div>
+</div>
 
       {/* ## Middle Section: Navigation Links with Glass Effect ## */}
       <div
