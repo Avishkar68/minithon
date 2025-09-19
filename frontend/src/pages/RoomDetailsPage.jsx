@@ -1,146 +1,17 @@
-// import React, { useState } from "react";
-// import { useParams, Link } from "react-router-dom";
-// import roomdetailsdata from "../data/roomdetailsdata";
 
-// const RoomDetailsPage = () => {
-//   const { id } = useParams();
-//   const room = roomdetailsdata.find((r) => r.id === parseInt(id));
-//   if (!room)
-//     return (
-//       <h2 className="text-center mt-10 text-red-500">Room not found</h2>
-//     );
-
-//   const [openIndex, setOpenIndex] = useState(null);
-//   const toggleFAQ = (idx) => {
-//     setOpenIndex(openIndex === idx ? null : idx);
-//   };
-
-//   const [selectedImage, setSelectedImage] = useState(null);
-//   const openImage = (img) => setSelectedImage(img);
-//   const closeImage = () => setSelectedImage(null);
-
-//   return (
-//     <div className="p-6 max-w-6xl mx-auto pt-20">
-//       <Link
-//         to="/rooms"
-//         className="inline-block mb-10 bg-gray-900 text-white px-5 py-2 rounded-xl hover:bg-gray-700 transition"
-//       >
-//         ← Back to Rooms
-//       </Link>
-
-//       <div className="mb-8">
-//         <h1 className="text-4xl font-bold mb-2">{room.name}</h1>
-//         <p className="text-gray-600">{room.location}</p>
-//         <p className="text-2xl font-semibold text-gray-900 mt-2">
-//           ₹{room.price} <span className="text-lg font-normal">/ month</span>
-//         </p>
-//       </div>
-
-//       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
-//         {room.images.map((img, idx) => (
-//           <img
-//             key={idx}
-//             src={img}
-//             alt={room.name}
-//             className="w-full h-56 object-cover rounded-2xl shadow-md hover:scale-105 transition cursor-pointer"
-//             onClick={() => openImage(img)}
-//           />
-//         ))}
-//       </div>
-
-//       {selectedImage && (
-//         <div className="fixed inset-0 z-50 flex items-center justify-center backdrop-blur-md bg-black/70">
-//           <button
-//             onClick={closeImage}
-//             className="absolute cursor-pointer top-6 right-6 text-white text-3xl font-bold hover:text-gray-300"
-//           >
-//             ×
-//           </button>
-//           <img
-//             src={selectedImage}
-//             alt="Preview"
-//             className="max-w-4xl max-h-[80vh] rounded-2xl shadow-2xl"
-//           />
-//         </div>
-//       )}
-
-//       <section className="mb-12">
-//         <h2 className="text-2xl font-semibold mb-4">Amenities</h2>
-//         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-//           {room.amenities.map((item, idx) => (
-//             <div
-//               key={idx}
-//               className="p-3 bg-gray-100 rounded-xl shadow-sm hover:shadow-md transition"
-//             >
-//               <p className="text-gray-700">{item}</p>
-//             </div>
-//           ))}
-//         </div>
-//       </section>
-
-//       <section className="mb-12">
-//         <h2 className="text-2xl font-semibold mb-6 text-center">
-//           What Our Residents Say
-//         </h2>
-//         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-//           {room.testimonials.map((t, idx) => (
-//             <div
-//               key={idx}
-//               className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition"
-//             >
-//               <p className="italic text-gray-700 mb-3">"{t.comment}"</p>
-//               <div className="flex items-center justify-between">
-//                 <p className="font-semibold">{t.author}</p>
-//                 <p className="text-yellow-500">⭐ {t.rating}</p>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </section>
-
-//       <section>
-//         <h2 className="text-2xl font-semibold mb-6 text-center">
-//           Everything You Need to Know
-//         </h2>
-//         <div className="space-y-4">
-//           {room.faqs.map((faq, idx) => (
-//             <div
-//               key={idx}
-//               className="border rounded-xl p-4 bg-gray-50 shadow-sm"
-//             >
-//               <button
-//                 className="w-full flex justify-between items-center font-semibold text-left"
-//                 onClick={() => toggleFAQ(idx)}
-//               >
-//                 {faq.question}
-//                 <span>{openIndex === idx ? "−" : "+"}</span>
-//               </button>
-//               {openIndex === idx && (
-//                 <p className="mt-2 text-gray-600">{faq.answer}</p>
-//               )}
-//             </div>
-//           ))}
-//         </div>
-//       </section>
-//     </div>
-//   );
-// };
-
-// export default RoomDetailsPage;
-
-
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import roomdetailsdata from "../data/roomdetailsdata";
 
-// --- Helper component for rendering star ratings ---
 const StarRating = ({ rating }) => {
   const stars = [];
   for (let i = 1; i <= 5; i++) {
     stars.push(
       <svg
         key={i}
-        className={`w-5 h-5 ${i <= rating ? 'text-amber-500' : 'text-gray-300'}`}
+        className={`w-5 h-5 ${
+          i <= rating ? "text-amber-500" : "text-gray-300"
+        }`}
         fill="currentColor"
         viewBox="0 0 20 20"
       >
@@ -151,21 +22,93 @@ const StarRating = ({ rating }) => {
   return <div className="flex">{stars}</div>;
 };
 
-// --- Mapping amenities to SVG icons ---
 const amenityIcons = {
-  WiFi: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600"><path strokeLinecap="round" strokeLinejoin="round" d="M8.288 15.045A9 9 0 0112 15m3.712 0a9 9 0 013.713-3.045M21 12a9 9 0 00-9-9m0 9a9 9 0 01-9 9m9-9v1.513A6.002 6.002 0 0012 18a6.002 6.002 0 000-4.487V12z" /></svg>,
-  "Air Conditioning": <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>,
-  "Study Table": <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" /></svg>,
-  "Attached Bathroom": <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600"><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h12A2.25 2.25 0 0020.25 14.25V3M3.75 3v-1.5A2.25 2.25 0 016 0h12A2.25 2.25 0 0120.25 1.5v1.5M3.75 3h16.5" /></svg>,
-  // Add other icons here...
-  Default: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+  WiFi: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="w-6 h-6 text-amber-600"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M8.288 15.045A9 9 0 0112 15m3.712 0a9 9 0 013.713-3.045M21 12a9 9 0 00-9-9m0 9a9 9 0 01-9 9m9-9v1.513A6.002 6.002 0 0012 18a6.002 6.002 0 000-4.487V12z"
+      />
+    </svg>
+  ),
+  "Air Conditioning": (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="w-6 h-6 text-amber-600"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+      />
+    </svg>
+  ),
+  "Study Table": (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="w-6 h-6 text-amber-600"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"
+      />
+    </svg>
+  ),
+  "Attached Bathroom": (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="w-6 h-6 text-amber-600"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M3.75 3v11.25A2.25 2.25 0 006 16.5h12A2.25 2.25 0 0020.25 14.25V3M3.75 3v-1.5A2.25 2.25 0 016 0h12A2.25 2.25 0 0120.25 1.5v1.5M3.75 3h16.5"
+      />
+    </svg>
+  ),
+  Default: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="w-6 h-6 text-amber-600"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M4.5 12.75l6 6 9-13.5"
+      />
+    </svg>
+  ),
 };
-
 
 const RoomDetailsPage = () => {
   const { id } = useParams();
   const room = roomdetailsdata.find((r) => r.id === parseInt(id));
-useEffect(() => {
+  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   const [openIndex, setOpenIndex] = useState(null);
@@ -185,8 +128,7 @@ useEffect(() => {
         <Link
           to="/rooms"
           className="  text-gray-700 hover:text-gray-900 transition font-semibold"
-        >
-        </Link>
+        ></Link>
 
         {/* --- Header Section --- */}
         <div className="mb-6">
@@ -197,29 +139,50 @@ useEffect(() => {
         {/* --- Image Gallery --- */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12 rounded-2xl overflow-hidden h-[450px]">
           <div className="col-span-2 row-span-2">
-            <img src={room.images[0]} alt={room.name} className="w-full h-full object-cover cursor-pointer hover:opacity-90 transition" onClick={() => openImage(room.images[0])} />
+            <img
+              src={room.images[0]}
+              alt={room.name}
+              className="w-full h-full object-cover cursor-pointer hover:opacity-90 transition"
+              onClick={() => openImage(room.images[0])}
+            />
           </div>
           {room.images.slice(1, 5).map((img, idx) => (
-            <img key={idx} src={img} alt={room.name} className="w-full h-full object-cover cursor-pointer hover:opacity-90 transition" onClick={() => openImage(img)} />
+            <img
+              key={idx}
+              src={img}
+              alt={room.name}
+              className="w-full h-full object-cover cursor-pointer hover:opacity-90 transition"
+              onClick={() => openImage(img)}
+            />
           ))}
         </div>
 
         {selectedImage && (
-             <div className="fixed inset-0 z-[100] flex items-center justify-center backdrop-blur-md bg-black/80" onClick={closeImage}>
-                <button onClick={closeImage} className="absolute cursor-pointer top-6 right-6 text-white text-4xl font-bold hover:text-gray-300 z-10">&times;</button>
-                <img src={selectedImage} alt="Preview" className="max-w-[90vw] max-h-[90vh] rounded-2xl shadow-2xl"/>
-             </div>
+          <div
+            className="fixed inset-0 z-[100] flex items-center justify-center backdrop-blur-md bg-black/80"
+            onClick={closeImage}
+          >
+            <button
+              onClick={closeImage}
+              className="absolute cursor-pointer top-6 right-6 text-white text-4xl font-bold hover:text-gray-300 z-10"
+            >
+              &times;
+            </button>
+            <img
+              src={selectedImage}
+              alt="Preview"
+              className="max-w-[90vw] max-h-[90vh] rounded-2xl shadow-2xl"
+            />
+          </div>
         )}
 
-        {/* ================================================================== */}
-        {/* IMPROVED UI STARTS HERE                                          */}
-        {/* ================================================================== */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-12 gap-y-16 mt-16">
-          
           {/* --- Left Column: Details --- */}
           <div className="lg:col-span-2">
             <section className="pb-12 border-b">
-              <h2 className="text-2xl font-semibold mb-6">What this place offers</h2>
+              <h2 className="text-2xl font-semibold mb-6">
+                What this place offers
+              </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {room.amenities.map((item, idx) => (
                   <div key={idx} className="flex items-center gap-4 p-3">
@@ -231,18 +194,25 @@ useEffect(() => {
             </section>
 
             <section className="py-12 border-b">
-              <h2 className="text-2xl font-semibold mb-8">What Our Residents Say</h2>
+              <h2 className="text-2xl font-semibold mb-8">
+                What Our Residents Say
+              </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 {room.testimonials.slice(0, 4).map((t, idx) => (
                   <div key={idx} className="bg-white p-6 rounded-2xl shadow-xl">
                     <div className="flex items-start gap-4">
-                       <div className="flex-shrink-0 w-12 h-12 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center font-bold">
-                          {t.author.split(' ').map(n => n[0]).join('')}
-                       </div>
-                       <div>
-                          <p className="font-semibold text-gray-900">{t.author}</p>
-                          <StarRating rating={t.rating} />
-                       </div>
+                      <div className="flex-shrink-0 w-12 h-12 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center font-bold">
+                        {t.author
+                          .split(" ")
+                          .map((n) => n[0])
+                          .join("")}
+                      </div>
+                      <div>
+                        <p className="font-semibold text-gray-900">
+                          {t.author}
+                        </p>
+                        <StarRating rating={t.rating} />
+                      </div>
                     </div>
                     <p className="italic text-gray-700 mt-4">"{t.comment}"</p>
                   </div>
@@ -250,89 +220,88 @@ useEffect(() => {
               </div>
             </section>
 
-            {/* <section className="py-12">
-              <h2 className="text-2xl font-semibold mb-8">Frequently Asked Questions</h2>
-              <div className="space-y-4">
+            <section className="py-12">
+              <h2 className="text-2xl font-semibold mb-8">
+                Frequently Asked Questions
+              </h2>
+              <div className="w-full">
                 {room.faqs.map((faq, idx) => (
-                  <div key={idx} className="border rounded-xl p-1 bg-white shadow-sm overflow-hidden">
+                  <div
+                    key={idx}
+                    className="border-b last:border-b-0 border-gray-200"
+                  >
                     <button
-                      className="w-full flex justify-between items-center font-semibold text-left p-4"
+                      className="w-full flex justify-between items-center text-left py-6"
                       onClick={() => toggleFAQ(idx)}
                     >
-                      {faq.question}
-                      <span className={`transform transition-transform duration-300 ${openIndex === idx ? 'rotate-180' : ''}`}>
-                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+                      <span className="text-lg text-gray-800">
+                        {faq.question}
                       </span>
+
+                      {/* Icon inspired by the image */}
+                      <div className="flex-shrink-0 w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center transition-colors">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth={2.5}
+                          stroke="currentColor"
+                          className={`w-4 h-4 text-gray-600 transform transition-transform duration-300 ${
+                            openIndex === idx ? "rotate-45" : "rotate-0"
+                          }`}
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                      </div>
                     </button>
-                    <div className={`transition-all duration-300 ease-in-out overflow-hidden ${openIndex === idx ? 'max-h-40' : 'max-h-0'}`}>
-                        <p className="px-4 pb-4 text-gray-600">{faq.answer}</p>
+                    <div
+                      className={`transition-all duration-300 ease-in-out overflow-hidden ${
+                        openIndex === idx ? "max-h-40" : "max-h-0"
+                      }`}
+                    >
+                      <p className="pr-10 pb-6 text-gray-600">{faq.answer}</p>
                     </div>
                   </div>
                 ))}
               </div>
-            </section> */}
-
-
-            <section className="py-12">
-    <h2 className="text-2xl font-semibold mb-8">Frequently Asked Questions</h2>
-    <div className="w-full">
-        {room.faqs.map((faq, idx) => (
-            <div key={idx} className="border-b last:border-b-0 border-gray-200">
-                <button
-                    className="w-full flex justify-between items-center text-left py-6"
-                    onClick={() => toggleFAQ(idx)}
-                >
-                    <span className="text-lg text-gray-800">{faq.question}</span>
-                    
-                    {/* Icon inspired by the image */}
-                    <div className="flex-shrink-0 w-7 h-7 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center transition-colors">
-                        <svg 
-                            xmlns="http://www.w3.org/2000/svg" 
-                            fill="none" 
-                            viewBox="0 0 24 24" 
-                            strokeWidth={2.5} 
-                            stroke="currentColor" 
-                            className={`w-4 h-4 text-gray-600 transform transition-transform duration-300 ${openIndex === idx ? 'rotate-45' : 'rotate-0'}`}
-                        >
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-                        </svg>
-                    </div>
-                </button>
-                <div 
-                    className={`transition-all duration-300 ease-in-out overflow-hidden ${openIndex === idx ? 'max-h-40' : 'max-h-0'}`}
-                >
-                    <p className="pr-10 pb-6 text-gray-600">{faq.answer}</p>
-                </div>
-            </div>
-        ))}
-    </div>
-</section>
+            </section>
           </div>
 
           {/* --- Right Column: Sticky Booking Card --- */}
           <div className="lg:col-span-1">
             <div className=" top-28 p-6 sticky rounded-2xl shadow-lg bg-white">
-                <p className="text-2xl font-bold mb-4">
-                  ₹{room.price.toLocaleString('en-IN')} <span className="text-lg font-normal text-gray-600">/ month</span>
-                </p>
-                <div className="space-y-3 text-sm text-gray-700 mb-6">
-                    <div className="flex justify-between">
-                        <span>Capacity</span>
-                        <span className="font-semibold">{room.capacity} Person(s)</span>
-                    </div>
-                    <div className="flex justify-between">
-                        <span>Service Fee</span>
-                        <span className="font-semibold">₹500</span>
-                    </div>
-                     <div className="flex justify-between pt-3 border-t font-bold text-gray-900">
-                        <span>Total per month</span>
-                        <span>₹{(room.price + 500).toLocaleString('en-IN')}</span>
-                    </div>
+              <p className="text-2xl font-bold mb-4">
+                ₹{room.price.toLocaleString("en-IN")}{" "}
+                <span className="text-lg font-normal text-gray-600">
+                  / month
+                </span>
+              </p>
+              <div className="space-y-3 text-sm text-gray-700 mb-6">
+                <div className="flex justify-between">
+                  <span>Capacity</span>
+                  <span className="font-semibold">
+                    {room.capacity} Person(s)
+                  </span>
                 </div>
-                <button className="w-full bg-gray-900 text-white font-bold py-3 rounded-xl hover:bg-gray-700 transition transform hover:scale-105">
-                    Reserve Now
-                </button>
-                <p className="text-center text-xs text-gray-500 mt-3">You won't be charged yet</p>
+                <div className="flex justify-between">
+                  <span>Service Fee</span>
+                  <span className="font-semibold">₹500</span>
+                </div>
+                <div className="flex justify-between pt-3 border-t font-bold text-gray-900">
+                  <span>Total per month</span>
+                  <span>₹{(room.price + 500).toLocaleString("en-IN")}</span>
+                </div>
+              </div>
+              <button className="w-full bg-gray-900 text-white font-bold py-3 rounded-xl hover:bg-gray-700 transition transform hover:scale-105">
+                Reserve Now
+              </button>
+              <p className="text-center text-xs text-gray-500 mt-3">
+                You won't be charged yet
+              </p>
             </div>
           </div>
         </div>
