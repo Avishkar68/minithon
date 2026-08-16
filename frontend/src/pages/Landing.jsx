@@ -9,8 +9,8 @@ const heroImages = [
   roomdetailsdata[1].images[0], 
 ];
 
-const aboutImage = roomdetailsdata[2].images[1];
-const faqImage = roomdetailsdata[7].images[2];
+const aboutImage = roomdetailsdata[5].images[1];
+const faqImage = roomdetailsdata[6].images[2];
 
 
 const testimonials = [
@@ -156,7 +156,7 @@ const Home = () => {
           className="relative group overflow-hidden rounded-lg shadow-lg block"
         >
           <img
-            src={room.images[0]}
+            src={room.images[2]}
             alt={room.name}
             className="w-full h-96 object-cover transform transition-transform duration-500 group-hover:scale-110"
           />

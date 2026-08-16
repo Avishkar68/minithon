@@ -60,38 +60,38 @@ const roomdetailsdata =
       ],
       "rating": 7
     },
+    // {
+    //   "id": 3,
+    //   "name": "Triple Sharing Room - Economy",
+    //   "price": 2500,
+    //   "capacity": 3,
+    //   "location": "Main Campus - West Wing",
+    //   "amenities": ["WiFi", "Shared Bathroom", "Fan", "Basic Furniture", "Common Study Area"],
+    //   "images": [
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
+    //   ],
+    //   "testimonials": [
+    //     { "author": "Arjun Mehta", "rating": 4, "comment": "Good space-sharing and cooperative roommates." },
+    //     { "author": "Mansi Jain", "rating": 3, "comment": "Okay facilities, but very affordable." },
+    //     { "author": "Ritesh Chauhan", "rating": 4, "comment": "WiFi works fine for online classes." },
+    //     { "author": "Surbhi Nair", "rating": 4, "comment": "Staff is very responsive to issues." },
+    //     { "author": "Pawan Das", "rating": 5, "comment": "For the price, it’s unbeatable." }
+    //   ],
+    //   "faqs": [
+    //     { "question": "How many beds are provided?", "answer": "Each resident has a separate bed and storage." },
+    //     { "question": "Is electricity included?", "answer": "Yes, basic electricity charges are included in the rent." },
+    //     { "question": "Do we get hot water?", "answer": "Hot water is available in the mornings." },
+    //     { "question": "Can we cook inside?", "answer": "Cooking inside the room is not allowed." },
+    //     { "question": "Are pets allowed?", "answer": "No, pets are not allowed inside dormitories." }
+    //   ],
+    //   "rating": 6
+    // },
     {
       "id": 3,
-      "name": "Triple Sharing Room - Economy",
-      "price": 2500,
-      "capacity": 3,
-      "location": "Main Campus - West Wing",
-      "amenities": ["WiFi", "Shared Bathroom", "Fan", "Basic Furniture", "Common Study Area"],
-      "images": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
-      ],
-      "testimonials": [
-        { "author": "Arjun Mehta", "rating": 4, "comment": "Good space-sharing and cooperative roommates." },
-        { "author": "Mansi Jain", "rating": 3, "comment": "Okay facilities, but very affordable." },
-        { "author": "Ritesh Chauhan", "rating": 4, "comment": "WiFi works fine for online classes." },
-        { "author": "Surbhi Nair", "rating": 4, "comment": "Staff is very responsive to issues." },
-        { "author": "Pawan Das", "rating": 5, "comment": "For the price, it’s unbeatable." }
-      ],
-      "faqs": [
-        { "question": "How many beds are provided?", "answer": "Each resident has a separate bed and storage." },
-        { "question": "Is electricity included?", "answer": "Yes, basic electricity charges are included in the rent." },
-        { "question": "Do we get hot water?", "answer": "Hot water is available in the mornings." },
-        { "question": "Can we cook inside?", "answer": "Cooking inside the room is not allowed." },
-        { "question": "Are pets allowed?", "answer": "No, pets are not allowed inside dormitories." }
-      ],
-      "rating": 6
-    },
-    {
-      "id": 4,
       "name": "Single Room - Standard",
       "price": 4000,
       "capacity": 1,
@@ -120,38 +120,38 @@ const roomdetailsdata =
       ],
       "rating": 8
     },
+    // {
+    //   "id": 5,
+    //   "name": "Double Sharing Room - Economy",
+    //   "price": 3000,
+    //   "capacity": 2,
+    //   "location": "Annex Building - Floor 3",
+    //   "amenities": ["WiFi", "Shared Bathroom", "Fan", "Basic Furniture", "Study Area"],
+    //   "images": [
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
+    //   ],
+    //   "testimonials": [
+    //     { "author": "Suman Das", "rating": 4, "comment": "Great for making new friends." },
+    //     { "author": "Pankaj Sethi", "rating": 3, "comment": "Can be noisy at times." },
+    //     { "author": "Meera Joshi", "rating": 4, "comment": "Staff is helpful and responsive." },
+    //     { "author": "Rahul Nair", "rating": 5, "comment": "Excellent value for the price, happy with my roommate." },
+    //     { "author": "Aisha Sharma", "rating": 4, "comment": "Facilities are basic but sufficient." }
+    //   ],
+    //   "faqs": [
+    //     { "question": "Are beds bunk beds?", "answer": "Yes, some rooms have bunk beds to save space." },
+    //     { "question": "Can we change roommates?", "answer": "Roommate changes are possible after a certain period, with approval." },
+    //     { "question": "Is there a mess hall?", "answer": "Yes, there is a common mess hall for all residents." },
+    //     { "question": "Are the study areas quiet?", "answer": "Yes, dedicated quiet study areas are available." },
+    //     { "question": "Is there a gym?", "answer": "No, a gym is not available on the premises." }
+    //   ],
+    //   "rating": 7
+    // },
     {
-      "id": 5,
-      "name": "Double Sharing Room - Economy",
-      "price": 3000,
-      "capacity": 2,
-      "location": "Annex Building - Floor 3",
-      "amenities": ["WiFi", "Shared Bathroom", "Fan", "Basic Furniture", "Study Area"],
-      "images": [
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
-      ],
-      "testimonials": [
-        { "author": "Suman Das", "rating": 4, "comment": "Great for making new friends." },
-        { "author": "Pankaj Sethi", "rating": 3, "comment": "Can be noisy at times." },
-        { "author": "Meera Joshi", "rating": 4, "comment": "Staff is helpful and responsive." },
-        { "author": "Rahul Nair", "rating": 5, "comment": "Excellent value for the price, happy with my roommate." },
-        { "author": "Aisha Sharma", "rating": 4, "comment": "Facilities are basic but sufficient." }
-      ],
-      "faqs": [
-        { "question": "Are beds bunk beds?", "answer": "Yes, some rooms have bunk beds to save space." },
-        { "question": "Can we change roommates?", "answer": "Roommate changes are possible after a certain period, with approval." },
-        { "question": "Is there a mess hall?", "answer": "Yes, there is a common mess hall for all residents." },
-        { "question": "Are the study areas quiet?", "answer": "Yes, dedicated quiet study areas are available." },
-        { "question": "Is there a gym?", "answer": "No, a gym is not available on the premises." }
-      ],
-      "rating": 7
-    },
-    {
-      "id": 6,
+      "id": 4,
       "name": "Triple Sharing Room - Standard",
       "price": 2800,
       "capacity": 3,
@@ -210,38 +210,38 @@ const roomdetailsdata =
       ],
       "rating": 9
     },
+    // {
+    //   "id": 8,
+    //   "name": "Double Sharing Room - Deluxe",
+    //   "price": 4500,
+    //   "capacity": 2,
+    //   "location": "Residential Hall 1 - Floor 3",
+    //   "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Wardrobe", "Common Balcony"],
+    //   "images": [
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
+    //   ],
+    //   "testimonials": [
+    //     { "author": "Aditya Singh", "rating": 5, "comment": "The AC and attached bathroom make it very comfortable." },
+    //     { "author": "Pooja Sharma", "rating": 4, "comment": "Great room, though the balcony is a bit small." },
+    //     { "author": "Rohit Kumar", "rating": 5, "comment": "Perfect for sharing with a friend, good space." },
+    //     { "author": "Sneha Reddy", "rating": 4, "comment": "Clean and well-maintained. Happy with the services." },
+    //     { "author": "Vijay Das", "rating": 5, "comment": "Value for money, especially with the AC." }
+    //   ],
+    //   "faqs": [
+    //     { "question": "Is the balcony private?", "answer": "The balcony is shared with your roommate." },
+    //     { "question": "Is there a common kitchen?", "answer": "Yes, a common kitchen is available on each floor." },
+    //     { "question": "Are there laundry facilities?", "answer": "Yes, a laundry room with coin-operated machines is available." },
+    //     { "question": "What is the internet speed?", "answer": "The internet is high-speed fiber optic connection." },
+    //     { "question": "Are pets allowed?", "answer": "No, pets are strictly prohibited." }
+    //   ],
+    //   "rating": 8
+    // },
     {
       "id": 8,
-      "name": "Double Sharing Room - Deluxe",
-      "price": 4500,
-      "capacity": 2,
-      "location": "Residential Hall 1 - Floor 3",
-      "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Wardrobe", "Common Balcony"],
-      "images": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
-      ],
-      "testimonials": [
-        { "author": "Aditya Singh", "rating": 5, "comment": "The AC and attached bathroom make it very comfortable." },
-        { "author": "Pooja Sharma", "rating": 4, "comment": "Great room, though the balcony is a bit small." },
-        { "author": "Rohit Kumar", "rating": 5, "comment": "Perfect for sharing with a friend, good space." },
-        { "author": "Sneha Reddy", "rating": 4, "comment": "Clean and well-maintained. Happy with the services." },
-        { "author": "Vijay Das", "rating": 5, "comment": "Value for money, especially with the AC." }
-      ],
-      "faqs": [
-        { "question": "Is the balcony private?", "answer": "The balcony is shared with your roommate." },
-        { "question": "Is there a common kitchen?", "answer": "Yes, a common kitchen is available on each floor." },
-        { "question": "Are there laundry facilities?", "answer": "Yes, a laundry room with coin-operated machines is available." },
-        { "question": "What is the internet speed?", "answer": "The internet is high-speed fiber optic connection." },
-        { "question": "Are pets allowed?", "answer": "No, pets are strictly prohibited." }
-      ],
-      "rating": 8
-    },
-    {
-      "id": 9,
       "name": "Quad Sharing Room - Economy",
       "price": 2000,
       "capacity": 4,
@@ -270,37 +270,37 @@ const roomdetailsdata =
       ],
       "rating": 6
     },
+    // {
+    //   "id": 10,
+    //   "name": "Single Room - Premium Plus",
+    //   "price": 7000,
+    //   "capacity": 1,
+    //   "location": "Residential Hall 3 - Floor 5",
+    //   "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Smart TV", "Personal Balcony", "Pantry"],
+    //   "images": [
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
+    //   ],
+    //   "testimonials": [
+    //     { "author": "Rohan Patel", "rating": 5, "comment": "Absolute luxury. The balcony is a game changer." },
+    //     { "author": "Meghna Roy", "rating": 5, "comment": "Best place to live. Feels like a hotel." },
+    //     { "author": "Siddharth Jain", "rating": 5, "comment": "The pantry is super convenient for late-night snacks." },
+    //     { "author": "Diya Singh", "rating": 5, "comment": "Quiet, private, and has all the comforts of home." },
+    //     { "author": "Arjun Kumar", "rating": 5, "comment": "Unbeatable comfort and privacy." }
+    //   ],
+    //   "faqs": [
+    //     { "question": "Is the pantry fully equipped?", "answer": "The pantry has a microwave, kettle, and small fridge." },
+    //     { "question": "Is cleaning service included?", "answer": "Yes, daily cleaning service is provided." },
+    //     { "question": "Are guests allowed?", "answer": "Visitors are not allowed in the rooms. They must meet in the lobby." },
+    //     { "question": "What are the rules for the balcony?", "answer": "No smoking is allowed on the balcony." },
+    //     { "question": "Is this a new building?", "answer": "Yes, this residential hall was built last year." }
+    //   ],
+    //   "rating": 10
+    // },
     {
       "id": 10,
-      "name": "Single Room - Premium Plus",
-      "price": 7000,
-      "capacity": 1,
-      "location": "Residential Hall 3 - Floor 5",
-      "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Smart TV", "Personal Balcony", "Pantry"],
-      "images": [
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
-      ],
-      "testimonials": [
-        { "author": "Rohan Patel", "rating": 5, "comment": "Absolute luxury. The balcony is a game changer." },
-        { "author": "Meghna Roy", "rating": 5, "comment": "Best place to live. Feels like a hotel." },
-        { "author": "Siddharth Jain", "rating": 5, "comment": "The pantry is super convenient for late-night snacks." },
-        { "author": "Diya Singh", "rating": 5, "comment": "Quiet, private, and has all the comforts of home." },
-        { "author": "Arjun Kumar", "rating": 5, "comment": "Unbeatable comfort and privacy." }
-      ],
-      "faqs": [
-        { "question": "Is the pantry fully equipped?", "answer": "The pantry has a microwave, kettle, and small fridge." },
-        { "question": "Is cleaning service included?", "answer": "Yes, daily cleaning service is provided." },
-        { "question": "Are guests allowed?", "answer": "Visitors are not allowed in the rooms. They must meet in the lobby." },
-        { "question": "What are the rules for the balcony?", "answer": "No smoking is allowed on the balcony." },
-        { "question": "Is this a new building?", "answer": "Yes, this residential hall was built last year." }
-      ],
-      "rating": 10
-    },
-    {
-      "id": 11,
       "name": "Double Sharing Room - Premium",
       "price": 5500,
       "capacity": 2,
@@ -359,98 +359,98 @@ const roomdetailsdata =
       ],
       "rating": 8
     },
-    {
-      "id": 13,
-      "name": "Single Room - Deluxe with View",
-      "price": 5500,
-      "capacity": 1,
-      "location": "Residential Hall 4 - Floor 6",
-      "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Window with a view", "Wardrobe", "Mini Fridge"],
-      "images": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
-      ],
-      "testimonials": [
-        { "author": "Ananya Kumar", "rating": 5, "comment": "The view is amazing. The room is very comfortable." },
-        { "author": "Samar Singh", "rating": 5, "comment": "Waking up to that view is the best part. Great room." },
-        { "author": "Ishika Verma", "rating": 4, "comment": "The room is great, but the view can be a bit distracting!" },
-        { "author": "Divya Roy", "rating": 5, "comment": "The best single room on campus." },
-        { "author": "Kunal Sharma", "rating": 5, "comment": "Clean, spacious, and the view is a huge bonus." }
-      ],
-      "faqs": [
-        { "question": "Which view do we get?", "answer": "All rooms on this floor have a campus view or a city skyline view." },
-        { "question": "Is the room soundproof?", "answer": "The rooms are well-insulated to minimize noise." },
-        { "question": "Can I bring my own furniture?", "answer": "No, the room comes fully furnished." },
-        { "question": "Is the building accessible?", "answer": "Yes, there are elevators and ramps for accessibility." },
-        { "question": "Are there community events?", "answer": "Yes, the hall organizes regular community events and activities." }
-      ],
-      "rating": 9
-    },
-    {
-      "id": 14,
-      "name": "Double Sharing Room - With Balcony",
-      "price": 4000,
-      "capacity": 2,
-      "location": "Residential Hall 4 - Floor 3",
-      "amenities": ["WiFi", "Shared Bathroom", "Ceiling Fan", "Wardrobe", "Study Table", "Attached Balcony"],
-      "images": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
-      ],
-      "testimonials": [
-        { "author": "Aditya Das", "rating": 4, "comment": "The balcony is a great feature. Room is decent." },
-        { "author": "Pooja Kumar", "rating": 4, "comment": "Happy with the space and the facilities." },
-        { "author": "Rahul Joshi", "rating": 5, "comment": "Great place to relax with my roommate on the balcony." },
-        { "author": "Sneha Patel", "rating": 4, "comment": "Affordable and comfortable, the balcony makes a difference." },
-        { "author": "Vijay Singh", "rating": 5, "comment": "A great value proposition for a double room with a balcony." }
-      ],
-      "faqs": [
-        { "question": "Is the balcony private?", "answer": "The balcony is shared between the two roommates." },
-        { "question": "Can we dry clothes on the balcony?", "answer": "Yes, a clothesline is provided on the balcony." },
-        { "question": "Is the room cleaned regularly?", "answer": "Cleaning is done every alternate day." },
-        { "question": "What are the visiting hours?", "answer": "Visiting hours are from 10 AM to 8 PM." },
-        { "question": "Is there a parking space?", "answer": "Limited parking for two-wheelers is available." }
-      ],
-      "rating": 8
-    },
+    // {
+    //   "id": 13,
+    //   "name": "Single Room - Deluxe with View",
+    //   "price": 5500,
+    //   "capacity": 1,
+    //   "location": "Residential Hall 4 - Floor 6",
+    //   "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Window with a view", "Wardrobe", "Mini Fridge"],
+    //   "images": [
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
+    //   ],
+    //   "testimonials": [
+    //     { "author": "Ananya Kumar", "rating": 5, "comment": "The view is amazing. The room is very comfortable." },
+    //     { "author": "Samar Singh", "rating": 5, "comment": "Waking up to that view is the best part. Great room." },
+    //     { "author": "Ishika Verma", "rating": 4, "comment": "The room is great, but the view can be a bit distracting!" },
+    //     { "author": "Divya Roy", "rating": 5, "comment": "The best single room on campus." },
+    //     { "author": "Kunal Sharma", "rating": 5, "comment": "Clean, spacious, and the view is a huge bonus." }
+    //   ],
+    //   "faqs": [
+    //     { "question": "Which view do we get?", "answer": "All rooms on this floor have a campus view or a city skyline view." },
+    //     { "question": "Is the room soundproof?", "answer": "The rooms are well-insulated to minimize noise." },
+    //     { "question": "Can I bring my own furniture?", "answer": "No, the room comes fully furnished." },
+    //     { "question": "Is the building accessible?", "answer": "Yes, there are elevators and ramps for accessibility." },
+    //     { "question": "Are there community events?", "answer": "Yes, the hall organizes regular community events and activities." }
+    //   ],
+    //   "rating": 9
+    // },
+    // {
+    //   "id": 14,
+    //   "name": "Double Sharing Room - With Balcony",
+    //   "price": 4000,
+    //   "capacity": 2,
+    //   "location": "Residential Hall 4 - Floor 3",
+    //   "amenities": ["WiFi", "Shared Bathroom", "Ceiling Fan", "Wardrobe", "Study Table", "Attached Balcony"],
+    //   "images": [
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
+    //   ],
+    //   "testimonials": [
+    //     { "author": "Aditya Das", "rating": 4, "comment": "The balcony is a great feature. Room is decent." },
+    //     { "author": "Pooja Kumar", "rating": 4, "comment": "Happy with the space and the facilities." },
+    //     { "author": "Rahul Joshi", "rating": 5, "comment": "Great place to relax with my roommate on the balcony." },
+    //     { "author": "Sneha Patel", "rating": 4, "comment": "Affordable and comfortable, the balcony makes a difference." },
+    //     { "author": "Vijay Singh", "rating": 5, "comment": "A great value proposition for a double room with a balcony." }
+    //   ],
+    //   "faqs": [
+    //     { "question": "Is the balcony private?", "answer": "The balcony is shared between the two roommates." },
+    //     { "question": "Can we dry clothes on the balcony?", "answer": "Yes, a clothesline is provided on the balcony." },
+    //     { "question": "Is the room cleaned regularly?", "answer": "Cleaning is done every alternate day." },
+    //     { "question": "What are the visiting hours?", "answer": "Visiting hours are from 10 AM to 8 PM." },
+    //     { "question": "Is there a parking space?", "answer": "Limited parking for two-wheelers is available." }
+    //   ],
+    //   "rating": 8
+    // },
+    // {
+    //   "id": 15,
+    //   "name": "Triple Sharing Room - Standard Plus",
+    //   "price": 3000,
+    //   "capacity": 3,
+    //   "location": "Residential Hall 5 - Floor 1",
+    //   "amenities": ["WiFi", "Shared Bathroom", "Fan", "Individual Beds", "Locker", "Common Lounge Access"],
+    //   "images": [
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
+    //   ],
+    //   "testimonials": [
+    //     { "author": "Arjun Das", "rating": 4, "comment": "Good price and the common lounge is a great place to hang out." },
+    //     { "author": "Mansi Roy", "rating": 3, "comment": "Can be noisy at times, but overall a decent place." },
+    //     { "author": "Ritesh Sharma", "rating": 4, "comment": "The staff is friendly and responsive." },
+    //     { "author": "Surbhi Das", "rating": 4, "comment": "Good for making new friends. Very social environment." },
+    //     { "author": "Pawan Kumar", "rating": 5, "comment": "Best value for money. Highly recommended for students on a budget." }
+    //   ],
+    //   "faqs": [
+    //     { "question": "Is the common lounge always open?", "answer": "The common lounge is open from 6 AM to 11 PM." },
+    //     { "question": "Are there designated study hours?", "answer": "Yes, quiet study hours are enforced in the lounge after 9 PM." },
+    //     { "question": "Is food available?", "answer": "There is a canteen in the building, but food is not included in the rent." },
+    //     { "question": "Can we bring a personal heater?", "answer": "No, personal heaters are not allowed due to fire safety." },
+    //     { "question": "Is there a washing machine?", "answer": "Yes, a coin-operated washing machine is available in the laundry room." }
+    //   ],
+    //   "rating": 7
+    // },
     {
       "id": 15,
-      "name": "Triple Sharing Room - Standard Plus",
-      "price": 3000,
-      "capacity": 3,
-      "location": "Residential Hall 5 - Floor 1",
-      "amenities": ["WiFi", "Shared Bathroom", "Fan", "Individual Beds", "Locker", "Common Lounge Access"],
-      "images": [
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
-      ],
-      "testimonials": [
-        { "author": "Arjun Das", "rating": 4, "comment": "Good price and the common lounge is a great place to hang out." },
-        { "author": "Mansi Roy", "rating": 3, "comment": "Can be noisy at times, but overall a decent place." },
-        { "author": "Ritesh Sharma", "rating": 4, "comment": "The staff is friendly and responsive." },
-        { "author": "Surbhi Das", "rating": 4, "comment": "Good for making new friends. Very social environment." },
-        { "author": "Pawan Kumar", "rating": 5, "comment": "Best value for money. Highly recommended for students on a budget." }
-      ],
-      "faqs": [
-        { "question": "Is the common lounge always open?", "answer": "The common lounge is open from 6 AM to 11 PM." },
-        { "question": "Are there designated study hours?", "answer": "Yes, quiet study hours are enforced in the lounge after 9 PM." },
-        { "question": "Is food available?", "answer": "There is a canteen in the building, but food is not included in the rent." },
-        { "question": "Can we bring a personal heater?", "answer": "No, personal heaters are not allowed due to fire safety." },
-        { "question": "Is there a washing machine?", "answer": "Yes, a coin-operated washing machine is available in the laundry room." }
-      ],
-      "rating": 7
-    },
-    {
-      "id": 16,
       "name": "Quad Sharing Room - Standard",
       "price": 2200,
       "capacity": 4,
@@ -480,7 +480,7 @@ const roomdetailsdata =
       "rating": 6
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "Single Room - Compact",
       "price": 4200,
       "capacity": 1,
@@ -509,96 +509,96 @@ const roomdetailsdata =
       ],
       "rating": 7
     },
-    {
-      "id": 18,
-      "name": "Double Sharing Room - Compact",
-      "price": 3200,
-      "capacity": 2,
-      "location": "Satellite Dorm - Block B",
-      "amenities": ["WiFi", "Shared Bathroom", "Fan", "Bunk Beds", "Study Table"],
-      "images": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
-      ],
-      "testimonials": [
-        { "author": "Aditya Roy", "rating": 4, "comment": "Affordable and functional. Bunk beds save space." },
-        { "author": "Pooja Das", "rating": 3, "comment": "Can be a bit tight, but the staff is very helpful." },
-        { "author": "Rohit Kumar", "rating": 4, "comment": "Good for the price, happy with my roommate." },
-        { "author": "Sneha Sharma", "rating": 4, "comment": "The internet is reliable, which is most important." },
-        { "author": "Vijay Das", "rating": 5, "comment": "Perfect for a student on a tight budget. Highly recommended." }
-      ],
-      "faqs": [
-        { "question": "Are the bunk beds comfortable?", "answer": "Yes, the bunk beds are of good quality and comfortable." },
-        { "question": "Are the bathrooms cleaned daily?", "answer": "The shared bathrooms are cleaned twice a day." },
-        { "question": "Is there a security guard?", "answer": "Yes, 24/7 security is provided." },
-        { "question": "What are the rules for visitors?", "answer": "Visitors are allowed in the common lobby area only." },
-        { "question": "Is there a common area to watch TV?", "answer": "Yes, a common TV room is available in the lobby." }
-      ],
-      "rating": 6
-    },
-    {
-      "id": 19,
-      "name": "Single Room - With Pantry",
-      "price": 5800,
-      "capacity": 1,
-      "location": "High-Rise Building - Floor 10",
-      "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Wardrobe", "Personal Pantry"],
-      "images": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
-      ],
-      "testimonials": [
-        { "author": "Rohan Patel", "rating": 5, "comment": "The personal pantry is a lifesaver. Feels very luxurious." },
-        { "author": "Meghna Roy", "rating": 5, "comment": "Perfect for a foodie. Great room and location." },
-        { "author": "Siddharth Jain", "rating": 5, "comment": "The best room on campus, worth the premium price." },
-        { "author": "Diya Singh", "rating": 4, "comment": "A bit expensive, but the comfort and convenience are unmatched." },
-        { "author": "Arjun Kumar", "rating": 5, "comment": "The best single room experience. Highly recommended." }
-      ],
-      "faqs": [
-        { "question": "Is the pantry fully equipped?", "answer": "The pantry has a microwave, kettle, and small fridge." },
-        { "question": "Is cleaning service included?", "answer": "Yes, daily cleaning service is provided." },
-        { "question": "Are guests allowed?", "answer": "Visitors are not allowed in the rooms. They must meet in the lobby." },
-        { "question": "What are the rules for the pantry?", "answer": "No heavy cooking is allowed in the pantry." },
-        { "question": "Are there any special rules?", "answer": "Noise levels should be kept to a minimum after 10 PM." }
-      ],
-      "rating": 10
-    },
-    {
-      "id": 20,
-      "name": "Double Sharing Room - With View",
-      "price": 4800,
-      "capacity": 2,
-      "location": "High-Rise Building - Floor 8",
-      "amenities": ["WiFi", "Air Conditioning", "Attached Bathroom", "Study Table", "Window with a view", "Wardrobe"],
-      "images": [
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
-      ],
-      "testimonials": [
-        { "author": "Ankit Kumar", "rating": 5, "comment": "The view is breathtaking. The AC is a huge plus." },
-        { "author": "Neha Singh", "rating": 4, "comment": "Great room, but the price is on the higher side." },
-        { "author": "Rohit Das", "rating": 5, "comment": "Worth the money for the view and amenities." },
-        { "author": "Isha Patel", "rating": 4, "comment": "The room is comfortable and well-maintained." },
-        { "author": "Vikas Singh", "rating": 5, "comment": "Best double sharing room I've ever stayed in." }
-      ],
-      "faqs": [
-        { "question": "Is the view guaranteed?", "answer": "All rooms on this floor have a guaranteed view of the city skyline." },
-        { "question": "Is food included?", "answer": "No, but there is a cafe on the ground floor." },
-        { "question": "Is there a laundry service?", "answer": "Yes, a paid laundry service is available." },
-        { "question": "Are pets allowed?", "answer": "No, pets are strictly prohibited." },
-        { "question": "What is the security like?", "answer": "24/7 security and CCTV monitoring are in place." }
-      ],
-      "rating": 9
-    }
+    // {
+    //   "id": 18,
+    //   "name": "Double Sharing Room - Compact",
+    //   "price": 3200,
+    //   "capacity": 2,
+    //   "location": "Satellite Dorm - Block B",
+    //   "amenities": ["WiFi", "Shared Bathroom", "Fan", "Bunk Beds", "Study Table"],
+    //   "images": [
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
+    //   ],
+    //   "testimonials": [
+    //     { "author": "Aditya Roy", "rating": 4, "comment": "Affordable and functional. Bunk beds save space." },
+    //     { "author": "Pooja Das", "rating": 3, "comment": "Can be a bit tight, but the staff is very helpful." },
+    //     { "author": "Rohit Kumar", "rating": 4, "comment": "Good for the price, happy with my roommate." },
+    //     { "author": "Sneha Sharma", "rating": 4, "comment": "The internet is reliable, which is most important." },
+    //     { "author": "Vijay Das", "rating": 5, "comment": "Perfect for a student on a tight budget. Highly recommended." }
+    //   ],
+    //   "faqs": [
+    //     { "question": "Are the bunk beds comfortable?", "answer": "Yes, the bunk beds are of good quality and comfortable." },
+    //     { "question": "Are the bathrooms cleaned daily?", "answer": "The shared bathrooms are cleaned twice a day." },
+    //     { "question": "Is there a security guard?", "answer": "Yes, 24/7 security is provided." },
+    //     { "question": "What are the rules for visitors?", "answer": "Visitors are allowed in the common lobby area only." },
+    //     { "question": "Is there a common area to watch TV?", "answer": "Yes, a common TV room is available in the lobby." }
+    //   ],
+    //   "rating": 6
+    // },
+    // {
+    //   "id": 19,
+    //   "name": "Single Room - With Pantry",
+    //   "price": 5800,
+    //   "capacity": 1,
+    //   "location": "High-Rise Building - Floor 10",
+    //   "amenities": ["WiFi", "Study Table", "Air Conditioning", "Attached Bathroom", "Wardrobe", "Personal Pantry"],
+    //   "images": [
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/7d434b4d-931a-43ef-b242-585f14ebef03.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/510281ab-176b-4992-93b1-9491106c3ad7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2NjY0MTg1MzcxMTc1ODI1MQ%3D%3D/original/3ab44763-be63-496b-9847-c812a226c302.jpeg?im_w=720",
+    //     "https://a0.muscache.com/im/pictures/miso/Hosting-1166641853711758251/original/cac498c8-4139-4db3-b176-ce20fe822944.jpeg?im_w=1200"
+    //   ],
+    //   "testimonials": [
+    //     { "author": "Rohan Patel", "rating": 5, "comment": "The personal pantry is a lifesaver. Feels very luxurious." },
+    //     { "author": "Meghna Roy", "rating": 5, "comment": "Perfect for a foodie. Great room and location." },
+    //     { "author": "Siddharth Jain", "rating": 5, "comment": "The best room on campus, worth the premium price." },
+    //     { "author": "Diya Singh", "rating": 4, "comment": "A bit expensive, but the comfort and convenience are unmatched." },
+    //     { "author": "Arjun Kumar", "rating": 5, "comment": "The best single room experience. Highly recommended." }
+    //   ],
+    //   "faqs": [
+    //     { "question": "Is the pantry fully equipped?", "answer": "The pantry has a microwave, kettle, and small fridge." },
+    //     { "question": "Is cleaning service included?", "answer": "Yes, daily cleaning service is provided." },
+    //     { "question": "Are guests allowed?", "answer": "Visitors are not allowed in the rooms. They must meet in the lobby." },
+    //     { "question": "What are the rules for the pantry?", "answer": "No heavy cooking is allowed in the pantry." },
+    //     { "question": "Are there any special rules?", "answer": "Noise levels should be kept to a minimum after 10 PM." }
+    //   ],
+    //   "rating": 10
+    // },
+    // {
+    //   "id": 20,
+    //   "name": "Double Sharing Room - With View",
+    //   "price": 4800,
+    //   "capacity": 2,
+    //   "location": "High-Rise Building - Floor 8",
+    //   "amenities": ["WiFi", "Air Conditioning", "Attached Bathroom", "Study Table", "Window with a view", "Wardrobe"],
+    //   "images": [
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/d3b9004e-6d51-4b03-ba9b-0e1b69ef1679.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1440",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/66f6c6c9-197d-4c6e-94c4-7d3893e1cab7.jpeg?im_w=1200",
+    //     "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4NTUzNzMzODY1MDEzNTcxMw==/original/e58c6690-96cb-450c-92c9-ce143d88737b.jpeg?im_w=1200"
+    //   ],
+    //   "testimonials": [
+    //     { "author": "Ankit Kumar", "rating": 5, "comment": "The view is breathtaking. The AC is a huge plus." },
+    //     { "author": "Neha Singh", "rating": 4, "comment": "Great room, but the price is on the higher side." },
+    //     { "author": "Rohit Das", "rating": 5, "comment": "Worth the money for the view and amenities." },
+    //     { "author": "Isha Patel", "rating": 4, "comment": "The room is comfortable and well-maintained." },
+    //     { "author": "Vikas Singh", "rating": 5, "comment": "Best double sharing room I've ever stayed in." }
+    //   ],
+    //   "faqs": [
+    //     { "question": "Is the view guaranteed?", "answer": "All rooms on this floor have a guaranteed view of the city skyline." },
+    //     { "question": "Is food included?", "answer": "No, but there is a cafe on the ground floor." },
+    //     { "question": "Is there a laundry service?", "answer": "Yes, a paid laundry service is available." },
+    //     { "question": "Are pets allowed?", "answer": "No, pets are strictly prohibited." },
+    //     { "question": "What is the security like?", "answer": "24/7 security and CCTV monitoring are in place." }
+    //   ],
+    //   "rating": 9
+    // }
   ];
 
 export default roomdetailsdata;
